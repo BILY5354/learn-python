@@ -3,7 +3,9 @@
 i = 0
 j = 0
 for i in range(2, 1000):
-    for j in range(2, i):
+     #* ∵py不像c的for 这里j是不可能取到i的 那么怎么判断j==i呢
+     #* 将 i+1 即可
+    for j in range(2, i+1): 
         if (i % j == 0):
             break
     if j == i:
