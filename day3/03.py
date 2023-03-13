@@ -14,8 +14,26 @@ def validate_email(emailaddr):
     else:
         return False
     
+# START 老师代码
+def validate_email(address):    
+    if address.count(' ') >= 1 :
+        return False  
+    if address.count('@') != 1 :
+        return False
+    if address.startswith('@')  :
+        return False
+    
+    part2 = address.split('@')[-1] # 拿最后一个@的数组 看邮箱格式
+    if part2.count('.') != 1 :
+        return False
+    if part2.startswith('.') or part2.endswith('.'):
+        return False
+
+    return True 
+# END   老师代码
 
 if(validate_email('jolo.smith.email@com.')):
     print("正确")
 else:
     print("错误")
+
