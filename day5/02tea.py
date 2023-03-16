@@ -7,7 +7,7 @@ for line in lines:
     # 去掉行中的空格
     line = line.replace(' ', '')
 
-    # 如果是空格 跳过
+    # 如果是空行 跳过
     if not line:
         continue
 
