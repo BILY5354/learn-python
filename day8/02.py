@@ -59,7 +59,7 @@ def fun3():
 
 def fun4():
     for mTag, mInfo in members.items():
-        #* 注意用 " " ‘’
+        #* 注意用 " " ‘’表示键
         print(f'{mTag} : {mInfo["name"]}, {mInfo["level"]}, {mInfo["coins"]}')
 
 

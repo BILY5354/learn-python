@@ -2,15 +2,17 @@
 
 # * 准备函数将数据全部保存到字典里面
 def prepare():
-    t = {}
+    t1 = {}  # 股票在前 代码在后
+    t2 = {}  # 代码在前 股票在后
     # * 读取全部的数据
     with open('day8/stock.txt', encoding="utf8") as f:
         linesList = f.readlines()
     for line in linesList:
         line = line.replace("\n", "")  # 去掉 \n
         tList = line.split(" | ")  # 用于存在 键值对的列表 随便将空格删去
-        t[tList[0]] = tList[1]  # 存入字典
-    return t
+        t1[tList[0]] = tList[1]  # 存入字典
+        t2[tList[1]] = tList[0]
+    return t1, t2
 
 
 def Memu():
@@ -19,25 +21,28 @@ def Memu():
     return i
 
 
-def fun1(total):
+def fun1(total1, total2):
     # print(total['九典制药'])
     mess = input("请输入要查询的股票名称或代码\n")
-    print(mess)
+    # print(mess)
     # 快速判断 是否存在键
-    if mess in total:
-        print(f'股票名称：{mess}，股票代码：{total[mess]}')
+    if mess in total1:
+        print(f'股票名称：{mess}，股票代码：{total1[mess]}')
         return  # 不需要再判断了
     # 逐一判断是都存在值
-    for k, v in total.items():
-        if mess == v:
-            print(f'股票名称：{k}，股票代码：{v}')
+    elif mess in total2:
+        print(f'股票名称：{total2[mess]}，股票代码：{mess}')
+        return  # 不需要再判断了
+    else:
+        print("无法判断")
+        return
 
 
-total = prepare()  # 键为 股票名称  值为 代码
+total1, total2 = prepare()  # 键为 股票名称  值为 代码
 # print(total)
 while (True):
     i = int(Memu())
     if i == 0:
         break
     elif i == 1:
-        fun1(total)
+        fun1(total1, total2)
