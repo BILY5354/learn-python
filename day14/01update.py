@@ -19,7 +19,7 @@ for vf in vfList:
             newvf += tvf
 
         proc = Popen(
-            f'ffmpeg.exe -i {vf} -af asetrate=44100*8.9/10,atempo=10/8.9 -c:v copy {newvf}',
+            f'ffmpeg.exe -i "{vf}" -af asetrate=44100*8.9/10,atempo=10/8.9 -c:v copy "{newvf}"',
             stdin=None,
             stdout=PIPE,
             stderr=PIPE,
