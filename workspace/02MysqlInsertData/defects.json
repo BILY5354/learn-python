@@ -1,0 +1,23 @@
+{
+    "-1": {
+        "code": "unknown",
+        "name": "未知缺陷",
+        "type": "0",
+        "count": 7,
+        "Description": ""
+    },
+    "36": {
+        "code": "LA4",
+        "name": "粗铝线焊点高度",
+        "type": "线",
+        "count": 59,
+        "Description": ""
+    },
+    "44": {
+        "code": "LP",
+        "name": "引脚位置错误",
+        "type": "引脚",
+        "count": 1,
+        "Description": ""
+    }
+}

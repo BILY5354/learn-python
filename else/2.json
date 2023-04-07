@@ -1,0 +1,48 @@
+{
+	"table": "rep_lot",
+	"rows":
+	[
+		{
+			"GUID": "AAAABBBBCCCCDDDD02",
+			"lotNo": "20230320",
+			"machineID": "1",
+			"lotRunType": 2,
+			"lotStatus": 3,
+			"startTime": "2023-03-07 14:12:13",
+			"endTime": "2023-03-07 14:31:29",
+			"DBID": "DB.001",
+			"WBID": "WB-009",
+			"deviceName": "VT_AOI",
+			"product": "IGBT-WB",
+			"framePreMag": 20,
+			"block": 1,
+			"row": 1,
+			"col": 3,
+			"lotSize": 1,
+			"magCount": 1,
+			"visionRecipe": "D:\\data\\zhongxin\\ZX20221208-01-HD1-WB\\HD5.3.halcon1.vrp",
+			"motionRecipe": "D:\\2hao\\AIC00178AGF-1ST.prp",
+			"operatorID": "2752",
+			"package": "1",
+			"defects": "{\"-1\": {\"code\": \"unknown\", \"name\": \"未知缺陷\", \"type\": \"0\", \"count\": 0}, \"36\": {\"code\": \"LA4\", \"name\": \"粗铝线焊点高度\", \"type\": \"线\", \"count\": 0}, \"112\": {\"code\": \"LA9\", \"name\": \"粗铝线线并检测\", \"type\": \"线\", \"count\": 0}, \"303\": {\"code\": \"C2D\", \"name\": \"二维码失败\", \"type\": \"1\", \"count\": 0}}",
+			"detections": "{\"objs\": {\"1\": {\"apps\": {\"1001\": {\"name\": \"视角1-焊线细线检测 1-2\", \"tasks\": {\"1001001\": {\"name\": \"1(2nd Bd) B1 宽度\", \"type\": 1, \"unit\": \"um\", \"camID\": 1, \"limits\": [50, 150], \"lightID\": 1, \"isMeasure\": true}, \"1001002\": {\"name\": \"1(2nd Bd) B1 长度\", \"type\": 2, \"unit\": \"um\", \"camID\": 1, \"limits\": [0, 100], \"lightID\": 1, \"isMeasure\": true}, \"1001003\": {\"name\": \"1(2nd Bd) B1 焊盘X距离\", \"type\": 3, \"unit\": \"um\", \"camID\": 1, \"limits\": [1000, 2000], \"lightID\": 2, \"isMeasure\": true}}}, \"1002\": {\"name\": \"视角1-焊线细线检测 3-4\", \"tasks\": {\"1002001\": {\"name\": \"1(2nd Bd) B1 宽度\", \"type\": 1, \"unit\": \"um\", \"camID\": 1, \"limits\": [0, 100], \"lightID\": 1, \"isMeasure\": true}, \"1002002\": {\"name\": \"1(2nd Bd) B1 焊盘X距离\", \"type\": 3, \"unit\": \"um\", \"camID\": 1, \"limits\": [1000, 2000], \"lightID\": 1, \"isMeasure\": true}}}, \"1003\": {\"name\": \"视角1-焊线细线检测15-16\", \"tasks\": {\"1003001\": {\"name\": \"1(2nd Bd) B1 宽度\", \"type\": 1, \"unit\": \"um\", \"camID\": 1, \"limits\": [0, 100], \"lightID\": 2, \"isMeasure\": true}}}, \"name\": \"视角<1>\", \"objOffset\": [0, 0, 0]}}, \"2\": {\"apps\": {\"2001\": {\"name\": \"视角2-焊线细线检测13-14\", \"tasks\": {\"2001001\": {\"name\": \"1(1st Bd) W2 弧高\", \"type\": 4, \"unit\": \"um\", \"camID\": 1, \"limits\": [500, 1000], \"lightID\": 1, \"isMeasure\": true}, \"2001002\": {\"name\": \"1(1st Bd) W1 弧高\", \"type\": 6, \"unit\": \"um\", \"camID\": 1, \"limits\": [500, 1000], \"lightID\": 1, \"isMeasure\": true}}}}, \"name\": \"视角<2>\", \"objOffset\": [0, 0, 0]}, \"3\": {\"apps\": {\"3001\": {\"name\": \"视角3-晶粒污染-1\", \"tasks\": {\"3001001\": {\"name\": \"晶粒污染\", \"type\": 5, \"unit\": \"\", \"camID\": 1, \"limits\": [], \"lightID\": 2, \"isMeasure\": false}}}}, \"name\": \"视角<3>\", \"objOffset\": [0, 0, 0]}}, \"MiniMap\": {\"1\": [155, 98], \"2\": [155, 188], \"3\": [74, 188], \"WH\": [103, 155], \"ImgName\": \"MiniMapImage.png\"}, \"Resolution\": [6.68971447986481, 6.68683963425054]}",
+			"NG": 1,
+			"OK": 8,
+			"frameCount": 3,
+			"archived": 0,
+			"imgSaveType": 1,
+			"saveImgPath": "D:\\data",
+			"imgSuffix": ".jpg",
+			"upload": 0,
+			"motionVer": "1.0.0.1",
+			"visionVer": "1.0.0.1",
+			"camVer": "1.0.0.1",
+			"exeVer": "1.0.0.1",
+			"vRecipeVer": "1.0.0.1",
+			"mRecipeVer": "1.0.0.1",
+			"equipmentID": "15089843295",
+			"insertTime": "2023-02-27 17:08:53",
+			"info": null
+		}
+	]
+}

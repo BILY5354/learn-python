@@ -1,0 +1,48 @@
+{
+	"table": "rep_lot",
+	"rows":
+	[
+		{
+			"GUID": "AAAABBBBCCCCDDDD03",
+			"lotNo": "20230321",
+			"machineID": "1",
+			"lotRunType": 2,
+			"lotStatus": 3,
+			"startTime": "2023-04-04 16:34:14",
+			"endTime": "2023-04-04 16:57:16",
+			"DBID": "DB.001",
+			"WBID": "WB-009",
+			"deviceName": "VT_AOI",
+			"product": "IGBT-WB",
+			"framePreMag": 20,
+			"block": 1,
+			"row": 2,
+			"col": 2,
+			"lotSize": null,
+			"magCount": null,
+			"visionRecipe": "D:\\data\\zhongxin\\ZX20221208-01-HD1-WB\\HD5.3.halcon1.vrp",
+			"motionRecipe": "D:\\2hao\\AIC00178AGF-1ST.prp",
+			"operatorID": null,
+			"package": null,
+			"defects": "{\"-1\": {\"code\": \"unknown\", \"name\": \"未知缺陷\", \"type\": \"0\", \"count\": 7, \"Description\": \"\"}, \"36\": {\"code\": \"LA4\", \"name\": \"粗铝线焊点高度\", \"type\": \"线\", \"count\": 59, \"Description\": \"\"}, \"44\": {\"code\": \"LP\", \"name\": \"引脚位置错误\", \"type\": \"引脚\", \"count\": 1, \"Description\": \"\"}}",
+			"detections": "{}",
+			"NG": 2,
+			"OK": 10,
+			"frameCount": 12,
+			"archived": 0,
+			"imgSaveType": 0,
+			"saveImgPath": "D:\\data",
+			"imgSuffix": ".jpg",
+			"upload": 0,
+			"motionVer": "1.0.0.1",
+			"visionVer": "1.0.0.1",
+			"camVer": "1.0.0.1",
+			"exeVer": "1.0.0.1",
+			"vRecipeVer": "1.0.0.1",
+			"mRecipeVer": "1.0.0.1",
+			"equipmentID": "15089843295",
+			"insertTime": "2023-04-04 16:41:22",
+			"info": null
+		}
+	]
+}

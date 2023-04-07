@@ -1,0 +1,187 @@
+{
+    "objs": {
+        "1": {
+            "apps": {
+                "1001": {
+                    "name": "视角1-焊线细线检测 1-2",
+                    "tasks": {
+                        "1001001": {
+                            "name": "1(2nd Bd) B1 宽度",
+                            "type": 1,
+                            "unit": "um",
+                            "camID": 1,
+                            "limits": [
+                                50,
+                                150
+                            ],
+                            "lightID": 1,
+                            "isMeasure": true
+                        },
+                        "1001002": {
+                            "name": "1(2nd Bd) B1 长度",
+                            "type": 2,
+                            "unit": "um",
+                            "camID": 1,
+                            "limits": [
+                                0,
+                                100
+                            ],
+                            "lightID": 1,
+                            "isMeasure": true
+                        },
+                        "1001003": {
+                            "name": "1(2nd Bd) B1 焊盘X距离",
+                            "type": 3,
+                            "unit": "um",
+                            "camID": 1,
+                            "limits": [
+                                1000,
+                                2000
+                            ],
+                            "lightID": 2,
+                            "isMeasure": true
+                        }
+                    }
+                },
+                "1002": {
+                    "name": "视角1-焊线细线检测 3-4",
+                    "tasks": {
+                        "1002001": {
+                            "name": "1(2nd Bd) B1 宽度",
+                            "type": 1,
+                            "unit": "um",
+                            "camID": 1,
+                            "limits": [
+                                0,
+                                100
+                            ],
+                            "lightID": 1,
+                            "isMeasure": true
+                        },
+                        "1002002": {
+                            "name": "1(2nd Bd) B1 焊盘X距离",
+                            "type": 3,
+                            "unit": "um",
+                            "camID": 1,
+                            "limits": [
+                                1000,
+                                2000
+                            ],
+                            "lightID": 1,
+                            "isMeasure": true
+                        }
+                    }
+                },
+                "1003": {
+                    "name": "视角1-焊线细线检测15-16",
+                    "tasks": {
+                        "1003001": {
+                            "name": "1(2nd Bd) B1 宽度",
+                            "type": 1,
+                            "unit": "um",
+                            "camID": 1,
+                            "limits": [
+                                0,
+                                100
+                            ],
+                            "lightID": 2,
+                            "isMeasure": true
+                        }
+                    }
+                },
+                "name": "视角<1>",
+                "objOffset": [
+                    0,
+                    0,
+                    0
+                ]
+            }
+        },
+        "2": {
+            "apps": {
+                "2001": {
+                    "name": "视角2-焊线细线检测13-14",
+                    "tasks": {
+                        "2001001": {
+                            "name": "1(1st Bd) W2 弧高",
+                            "type": 4,
+                            "unit": "um",
+                            "camID": 1,
+                            "limits": [
+                                500,
+                                1000
+                            ],
+                            "lightID": 1,
+                            "isMeasure": true
+                        },
+                        "2001002": {
+                            "name": "1(1st Bd) W1 弧高",
+                            "type": 6,
+                            "unit": "um",
+                            "camID": 1,
+                            "limits": [
+                                500,
+                                1000
+                            ],
+                            "lightID": 1,
+                            "isMeasure": true
+                        }
+                    }
+                }
+            },
+            "name": "视角<2>",
+            "objOffset": [
+                0,
+                0,
+                0
+            ]
+        },
+        "3": {
+            "apps": {
+                "3001": {
+                    "name": "视角3-晶粒污染-1",
+                    "tasks": {
+                        "3001001": {
+                            "name": "晶粒污染",
+                            "type": 5,
+                            "unit": "",
+                            "camID": 1,
+                            "limits": [],
+                            "lightID": 2,
+                            "isMeasure": false
+                        }
+                    }
+                }
+            },
+            "name": "视角<3>",
+            "objOffset": [
+                0,
+                0,
+                0
+            ]
+        }
+    },
+    "MiniMap": {
+        "1": [
+            155,
+            98
+        ],
+        "2": [
+            155,
+            188
+        ],
+        "3": [
+            74,
+            188
+        ],
+        "WH": [
+            103,
+            155
+        ],
+        "ImgName": "MiniMapImage.png"
+    },
+    "Resolution": [
+        6.68971447986481,
+        6.68683963425054
+    ]
+}
