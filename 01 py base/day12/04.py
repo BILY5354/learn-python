@@ -9,7 +9,7 @@ targetDir = r'E:\learn-python\learn-python\day12\prac_re'
 
 fpathList = []
 
-# 下面的三个变量 dirpath, dirnames, filenames
+# 下面的三个变量 dirpath, dirnames, filenames   
 # dirpath 代表当前遍历到的目录名
 # dirnames 是列表对象，存放当前dirpath中的所有子目录名
 # filenames 是列表对象，存放当前dirpath中的所有文件名
