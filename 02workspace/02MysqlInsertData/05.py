@@ -10,11 +10,10 @@ cnx = mysql.connector.connect(
 )
 
 cursor = cnx.cursor()
-query = ("show tables")
+# query = ("UPDATE rep_result SET GUID='genByPy' WHERE GUID='AAAABBBBCCCCDDDD03'")
+query = ("UPDATE rep_result SET GUID=REPLACE(GUID, 'AAABBBBCCCCDDDD03', 'genByPy')")
 cursor.execute(query)
 
-for tt in cursor:
-    print(tt)
 
 # print(cnx) # 输出 <mysql.connector.connection_cext.CMySQLConnection object at 0x7ff200815c88>
 cnx.close()

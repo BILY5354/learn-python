@@ -1,0 +1,417 @@
+{
+    "Objs": {
+        "1": {
+            "Name": "视角<1>",
+            "ObjOffset": [
+                0,
+                0,
+                0
+            ],
+            "Resolution": [
+                6.68971447986481,
+                6.68683963425054
+            ],
+            "Apps": {
+                "1001": {
+                    "Name": "视角1-焊线细线检测 1-2",
+                    "Type": "线",
+                    "Tasks": {
+                        "1001001": {
+                            "Name": "1(1nd Bd)B1 宽度",
+                            "Type": 1,
+                            "MU": "um",
+                            "CamID": 1,
+                            "Limits": [
+                                50,
+                                150
+                            ],
+                            "LightID": 1,
+                            "IsMeasure": true
+                        },
+                        "1001002": {
+                            "Name": "1(1nd Bd) B1 长度",
+                            "Type": 2,
+                            "MU": "um",
+                            "CamID": 1,
+                            "Limits": [
+                                100,
+                                250
+                            ],
+                            "LightID": 1,
+                            "IsMeasure": true
+                        }
+                    }
+                },
+                "2001": {
+                    "Name": "1(1nd Bd)B1 焊盘*距离 ",
+                    "Type": "线",
+                    "Tasks": {
+                        "2001001": {
+                            "Name": "1(1st Bd) W2 弧高",
+                            "Type": 4,
+                            "MU": "um",
+                            "CamID": 1,
+                            "Limits": [
+                                500,
+                                1000
+                            ],
+                            "LightID": 1,
+                            "IsMeasure": true
+                        }
+                    }
+                }  
+            }
+        },
+        "2": {
+            "Name": "视角<2>",
+            "ObjOffset": [
+                0,
+                0,
+                0
+            ],
+            "Resolution": [
+                6.68971447986481,
+                6.68683963425054
+            ],
+            "Apps": {
+                "1001": {
+                    "Name": "视角1-焊线细线检测 1-2",
+                    "Type": "线",
+                    "Tasks": {
+                        "1001001": {
+                            "Name": "1(1nd Bd)B1 宽度",
+                            "Type": 1,
+                            "MU": "um",
+                            "CamID": 1,
+                            "Limits": [
+                                50,
+                                150
+                            ],
+                            "LightID": 1,
+                            "IsMeasure": true
+                        },
+                        "1001002": {
+                            "Name": "1(1nd Bd) B1 长度",
+                            "Type": 2,
+                            "MU": "um",
+                            "CamID": 1,
+                            "Limits": [
+                                100,
+                                250
+                            ],
+                            "LightID": 1,
+                            "IsMeasure": true
+                        }
+                    }
+                },
+                "2001": {
+                    "Name": "1(1nd Bd)B1 焊盘*距离 ",
+                    "Type": "线",
+                    "Tasks": {
+                        "2001001": {
+                            "Name": "1(1st Bd) W2 弧高",
+                            "Type": 4,
+                            "MU": "um",
+                            "CamID": 1,
+                            "Limits": [
+                                500,
+                                1000
+                            ],
+                            "LightID": 1,
+                            "IsMeasure": true
+                        }
+                    }
+                }  
+            }
+        },
+        "3": {
+            "Name": "视角<3>",
+            "ObjOffset": [
+                0,
+                0,
+                0
+            ],
+            "Resolution": [
+                6.68971447986481,
+                6.68683963425054
+            ],
+            "Apps": {
+                "1001": {
+                    "Name": "视角1-焊线细线检测 1-2",
+                    "Type": "线",
+                    "Tasks": {
+                        "1001001": {
+                            "Name": "1(1nd Bd)B1 宽度",
+                            "Type": 1,
+                            "MU": "um",
+                            "CamID": 1,
+                            "Limits": [
+                                50,
+                                150
+                            ],
+                            "LightID": 1,
+                            "IsMeasure": true
+                        },
+                        "1001002": {
+                            "Name": "1(1nd Bd) B1 长度",
+                            "Type": 2,
+                            "MU": "um",
+                            "CamID": 1,
+                            "Limits": [
+                                100,
+                                250
+                            ],
+                            "LightID": 1,
+                            "IsMeasure": true
+                        }
+                    }
+                },
+                "2001": {
+                    "Name": "1(1nd Bd)B1 焊盘*距离 ",
+                    "Type": "线",
+                    "Tasks": {
+                        "2001001": {
+                            "Name": "1(1st Bd) W2 弧高",
+                            "Type": 4,
+                            "MU": "um",
+                            "CamID": 1,
+                            "Limits": [
+                                500,
+                                1000
+                            ],
+                            "LightID": 1,
+                            "IsMeasure": true
+                        }
+                    }
+                }  
+            }
+        },
+        "4": {
+            "Name": "视角<4>",
+            "ObjOffset": [
+                0,
+                0,
+                0
+            ],
+            "Resolution": [
+                6.68971447986481,
+                6.68683963425054
+            ],
+            "Apps": {
+                "1001": {
+                    "Name": "视角1-焊线细线检测 1-2",
+                    "Type": "线",
+                    "Tasks": {
+                        "1001001": {
+                            "Name": "1(1nd Bd)B1 宽度",
+                            "Type": 1,
+                            "MU": "um",
+                            "CamID": 1,
+                            "Limits": [
+                                50,
+                                150
+                            ],
+                            "LightID": 1,
+                            "IsMeasure": true
+                        },
+                        "1001002": {
+                            "Name": "1(1nd Bd) B1 长度",
+                            "Type": 2,
+                            "MU": "um",
+                            "CamID": 1,
+                            "Limits": [
+                                100,
+                                250
+                            ],
+                            "LightID": 1,
+                            "IsMeasure": true
+                        }
+                    }
+                },
+                "2001": {
+                    "Name": "1(1nd Bd)B1 焊盘*距离 ",
+                    "Type": "线",
+                    "Tasks": {
+                        "2001001": {
+                            "Name": "1(1st Bd) W2 弧高",
+                            "Type": 4,
+                            "MU": "um",
+                            "CamID": 1,
+                            "Limits": [
+                                500,
+                                1000
+                            ],
+                            "LightID": 1,
+                            "IsMeasure": true
+                        }
+                    }
+                }  
+            }
+        },
+        "5": {
+            "Name": "视角<5>",
+            "ObjOffset": [
+                0,
+                0,
+                0
+            ],
+            "Resolution": [
+                6.68971447986481,
+                6.68683963425054
+            ],
+            "Apps": {
+                "1001": {
+                    "Name": "视角1-焊线细线检测 1-2",
+                    "Type": "线",
+                    "Tasks": {
+                        "1001001": {
+                            "Name": "1(1nd Bd)B1 宽度",
+                            "Type": 1,
+                            "MU": "um",
+                            "CamID": 1,
+                            "Limits": [
+                                50,
+                                150
+                            ],
+                            "LightID": 1,
+                            "IsMeasure": true
+                        },
+                        "1001002": {
+                            "Name": "1(1nd Bd) B1 长度",
+                            "Type": 2,
+                            "MU": "um",
+                            "CamID": 1,
+                            "Limits": [
+                                100,
+                                250
+                            ],
+                            "LightID": 1,
+                            "IsMeasure": true
+                        }
+                    }
+                },
+                "2001": {
+                    "Name": "1(1nd Bd)B1 焊盘*距离 ",
+                    "Type": "线",
+                    "Tasks": {
+                        "2001001": {
+                            "Name": "1(1st Bd) W2 弧高",
+                            "Type": 4,
+                            "MU": "um",
+                            "CamID": 1,
+                            "Limits": [
+                                500,
+                                1000
+                            ],
+                            "LightID": 1,
+                            "IsMeasure": true
+                        }
+                    }
+                }  
+            }
+        },
+        "6": {
+            "Name": "视角<6>",
+            "ObjOffset": [
+                0,
+                0,
+                0
+            ],
+            "Resolution": [
+                6.68971447986481,
+                6.68683963425054
+            ],
+            "Apps": {
+                "1001": {
+                    "Name": "视角1-焊线细线检测 1-2",
+                    "Type": "线",
+                    "Tasks": {
+                        "1001001": {
+                            "Name": "1(1nd Bd)B1 宽度",
+                            "Type": 1,
+                            "MU": "um",
+                            "CamID": 1,
+                            "Limits": [
+                                50,
+                                150
+                            ],
+                            "LightID": 1,
+                            "IsMeasure": true
+                        },
+                        "1001002": {
+                            "Name": "1(1nd Bd) B1 长度",
+                            "Type": 2,
+                            "MU": "um",
+                            "CamID": 1,
+                            "Limits": [
+                                100,
+                                250
+                            ],
+                            "LightID": 1,
+                            "IsMeasure": true
+                        }
+                    }
+                },
+                "2001": {
+                    "Name": "1(1nd Bd)B1 焊盘*距离 ",
+                    "Type": "线",
+                    "Tasks": {
+                        "2001001": {
+                            "Name": "1(1st Bd) W2 弧高",
+                            "Type": 4,
+                            "MU": "um",
+                            "CamID": 1,
+                            "Limits": [
+                                500,
+                                1000
+                            ],
+                            "LightID": 1,
+                            "IsMeasure": true
+                        }
+                    }
+                }  
+            }
+        }
+    },
+    "MiniMap": {
+        "Objs": {
+            "1": [
+                170,
+                11,
+                133,
+                200
+            ],
+            "2": [
+                93,
+                11,
+                133,
+                200
+            ],
+            "3": [
+                22,
+                11,
+                133,
+                200
+            ],
+            "4": [
+                22,
+                192,
+                133,
+                200
+            ],
+            "5": [
+                93,
+                192,
+                133,
+                200
+            ],
+            "6": [
+                170,
+                192,
+                133,
+                200
+            ]
+        },
+        "ImgName": "MiniMapImage.png"
+    }
+}
