@@ -11,7 +11,8 @@ cnx = mysql.connector.connect(
 
 cursor = cnx.cursor()
 # query = ("UPDATE rep_result SET GUID='genByPy' WHERE GUID='AAAABBBBCCCCDDDD03'")
-query = ("UPDATE rep_frame SET GUID='genByPy' WHERE GUID='AAAABBBBCCCCDDDD03'")
+# query = ("UPDATE rep_frame SET GUID='genByPy' WHERE GUID='AAAABBBBCCCCDDDD03'")
+query = ("UPDATE rep_result SET appID=1002 WHERE appID=1001")
 
 cursor.execute(query)
 cnx.commit() #* 记得加入此行 确保数据有提交到数据库中
