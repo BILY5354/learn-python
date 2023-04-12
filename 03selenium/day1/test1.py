@@ -12,4 +12,4 @@ element = wd.find_element(By.ID,'kw')
 
 element.send_keys('通讯\n')
 
-input("按回车结束")
+input("按回车结束")  
