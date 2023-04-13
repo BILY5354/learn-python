@@ -14,6 +14,9 @@
 - 课后练习 `day2/01.py` `UI-0102`
 - 课后练习 `day2/02.py` `UI-0103`
 - [补充练习](http://v3.byhy.net/prac/pri546/selenium/0010a1/) `day2/03.py` 在qq音乐中找出对应列表
-  - 有重复的怎么办，限制范围
+  - 很多时候标签是重复的，怎么办，**限制范围**
     - `t = webdriver.Chrome().find_element(By.什么什么)`
     - `要找的东西 = t.find_element(By.什么什么)`
+    - 获取页面上显示内容 <a>显示内容</a> 用 `text` 方法
+      - 但很多时候是这样 <a title='想获取内容'>显示内容</a> 想拿 `title` 怎么办
+      - 用 `get_attribute` `get_attribute("title")`
