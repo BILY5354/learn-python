@@ -8,3 +8,9 @@
     - 用 id `By.ID`
     - 用 class `By.CLASS_NAME`
     - 用 tag `By.TAG_NAME`
+  - 注意 想要取字典第一个元素 `list(cityWeatherDict.keys())[0]`
+    - 其中 `keys` 返回的是 dict_keys 故需要强转
+## 操控元素的基本方法
+- 课后练习 `UI-0102`
+  -  
+- 课后练习 `UI-0103`
