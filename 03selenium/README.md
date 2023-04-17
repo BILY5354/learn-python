@@ -20,3 +20,9 @@
     - 获取页面上显示内容 <a>显示内容</a> 用 `text` 方法
       - 但很多时候是这样 <a title='想获取内容'>显示内容</a> 想拿 `title` 怎么办
       - 用 `get_attribute` `get_attribute("title")`
+## css表达式-上篇
+- 课后练习 `day3/02.py` `UI-0103`
+- [补充练习](http://v3.byhy.net/prac/pri546/selenium/0032f3/) `day3/01.py`
+  - 在招聘网站上获取对应的职位信息 用`CSS Selector`
+    - **找元素的关键是**选择一个唯一能表示这个空间的方式，可用开发者模式中的判断是否选中
+    - 如果`CSS Selector`选择元素没有效果，可用*debug*方式查看
