@@ -32,7 +32,7 @@ for page in range(2, 11):
     total = total + f"第{page}页\n"
     # 下一页按钮
     wd.find_element(By.CSS_SELECTOR, 'a[class="next paginate_button"]').click()
-    sleep(5)
+    sleep(2)
     eles = wd.find_elements(By.CSS_SELECTOR, "tbody > tr")
     # ele 是每一行
     for ele in eles:
