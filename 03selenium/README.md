@@ -26,3 +26,23 @@
   - 在招聘网站上获取对应的职位信息 用`CSS Selector`
     - **找元素的关键是**选择一个唯一能表示这个空间的方式，可用开发者模式中的判断是否选中
     - 如果`CSS Selector`选择元素没有效果，可用*debug*方式查看
+## css表达式-下篇
+- 课后练习 `day4/01.py` `UI-0105`
+  - 完成登陆后会出现代码执行得比服务器响应快的情况，这时候会出现找元素找不到的情况，两种解决方式
+    - 用 `sleep` `time.sleep(10)`
+    - 用 `implicitly_wait` `webdriver.Chrome().implicitly_wait(10)`
+    - 用 `.` **是不能找多个class的** 比如 `<div class="a b c">`
+      - 这里有三个类名，不同类间用空格隔开
+      - 错误例子的css选择器： `."a b c"` 是不能找到的，正确只能找一个 `.a`
+      - **不要过分纠结 找不到就换一种思路 实现就好** 当有多个 class 名时：
+        - 想模糊匹配就用 `.`
+        - 想精准匹配就用 `[class=""]`
+- [补充练习-股票网站](http://quote.eastmoney.com/center/gridlist.html#hs_a_board)
+  - 获取前10页的股票 名称和代码，并且保存到文件中 `day4/02.py`
+## frame
+- 课后练习
+- [补充练习-股票网站](http://quote.eastmoney.com/center/gridlist.html#hs_a_board)
+  - 获取前 10条的股票 名称和代码，
+    并且点开每一个股票公司的 相关链接栏目 里面的 数据 链接
+    切换到新打开的页面，点击公司概况，获取公司简介相关信息
+    最终以csv格式存储在文件中。（请自行网上搜索python如何以csv格式存储文件）
