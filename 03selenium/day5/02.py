@@ -16,31 +16,32 @@ wd.implicitly_wait(5)
 wd.get("http://quote.eastmoney.com/center/gridlist.html#hs_a_board")
 sleep(2)
 
-# 获取10条数据
-for i in range(1,11):
-    pass
 
-page = wd.find_element(By.CSS_SELECTOR, '.paginate_button.current').text
-while int(page) <= 10:
-    # tables 是由20行组成的表格
-    tables = wd.find_elements(By.CSS_SELECTOR, 'tbody tr')
-    # table 是每一行
-    for table in tables:
-        # stock 是股票代码和名称
-        stock = table.find_elements(
-            By.CSS_SELECTOR, 'td:nth-child(2),td:nth-child(3)')
-        # k是股票名称 v是股票代码
-        stock_dict[stock[1].text] = stock[0].text
-    # 点击下一页
-    wd.find_element(By.CSS_SELECTOR, '.paginate_button.current + a').click()
-    # 等待刷新 判断目前页数
-    sleep(2)
-    page = wd.find_element(By.CSS_SELECTOR, '.paginate_button.current').text
+eles = wd.find_elements(By.CSS_SELECTOR, "tbody > tr")
+# 循环10次
+i = 0
+# * 读取的是10页
+# ele 是每一行
+for ele in eles:
+    # stock 是股票代码和名称
+    stock = ele.find_elements(
+        By.CSS_SELECTOR, 'td:nth-child(2),td:nth-child(3)')
+    # k是股票名称 v是股票代码
+    stock_dict[stock[1].text] = stock[0].text
+    i = i+1
+
+    #* 执行点击代码
+
+    # 10 次跳出循环
+    if i == 10:
+        break
+
+print(stock_dict)
+    
 wd.quit()
 
 
-
-# 引用 csv 模块
-csv_file = open('03selenium/day5/test.csv', 'w', newline='', encoding='gbk')
-# 调用open函数打开csv文件
-writer = csv.writer(csv_file)
+# # 引用 csv 模块
+# csv_file = open('03selenium/day5/test.csv', 'w', newline='', encoding='gbk')
+# # 调用open函数打开csv文件
+# writer = csv.writer(csv_file)
