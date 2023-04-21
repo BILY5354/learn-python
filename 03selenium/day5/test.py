@@ -1,7 +1,8 @@
-from selenium import webdriver
+36.59 ,36.80 ,36.94 ,35.94 ,37.29 ,36.69 ,36.51 ,36.90 ,36.69 
 
-wd = webdriver.Chrome()
 
-wd.get("https://www.byhy.net/")
+ 
 
-print(wd.title)
+
+
+
