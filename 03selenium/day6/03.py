@@ -33,8 +33,6 @@ for ele in eles:
     if '有' == tText or tText.isdigit():
         trainList.append(ele.find_element(By.XPATH,'.//*[@class="train"]//a').text)
     
-
-
 print(trainList)
 
 input()

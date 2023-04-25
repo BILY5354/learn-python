@@ -61,3 +61,6 @@
   - 删除指定客户怎么弄，因为删除的总会在第一条，并不需要查询所有的数据，每次删除完获取新的elements即可
 ## Xpath选择器
 - [补充练习](http://v3.byhy.net/prac/pri546/selenium/000005/) `day6/03.py`
+  - 使用 `XPATH` **需要限定范围查找时元素时需要加** `.`
+    - `eles = wd.find_elements(By.XPATH,'???')`
+    - `for ele in eles: ele.wd.find_elements(By.XPATH,'.???'` **在前面加点** `.`
