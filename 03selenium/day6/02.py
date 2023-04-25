@@ -14,8 +14,8 @@ clientList = [['南京中医院1', '2551867851', '江苏省-南京市-秦淮区-
 # 用 xpath选择器
 wd = webdriver.Chrome()
 wd.get("http://127.0.0.1/mgr/sign.html")
-ele = wd.find_element(By.ID, 'username').send_keys('byhy')
-ele = wd.find_element(By.ID, 'password').send_keys('88888888')
+wd.find_element(By.ID, 'username').send_keys('byhy')
+wd.find_element(By.ID, 'password').send_keys('88888888')
 
 wd.find_element(By.XPATH, '//button').click()
 sleep(1)
