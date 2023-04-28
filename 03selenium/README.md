@@ -64,3 +64,5 @@
   - 使用 `XPATH` **需要限定范围查找时元素时需要加** `.`
     - `eles = wd.find_elements(By.XPATH,'???')`
     - `for ele in eles: ele.wd.find_elements(By.XPATH,'.???'` **在前面加点** `.`
+    - 分析时页面元素时，可以把需要排除的元素和需要找的元素拷贝出来，观察有什么不同
+    - <font color="lightgreen">选择以特定属性开头</font> `a[href^="http"]`
