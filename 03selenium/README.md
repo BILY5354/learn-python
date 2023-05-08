@@ -11,7 +11,7 @@
     - 用 tag `By.TAG_NAME`
   - 注意 想要取字典第一个元素 `list(cityWeatherDict.keys())[0]`
     - 其中 `keys` 返回的是 dict_keys 故需要强转
-## 操控元素的基本方法
+## 操控元素的基本方法 
 - 课后练习 `day2/01.py` `UI-0102`
 - 课后练习 `day2/02.py` `UI-0103`
 - [补充练习](http://v3.byhy.net/prac/pri546/selenium/0010a1/) `day2/03.py` 在qq音乐中找出对应列表
