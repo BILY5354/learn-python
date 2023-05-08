@@ -13,4 +13,4 @@ element.send_keys('byhy')
 
 wd.find_element(By.CSS_SELECTOR,'button[type=submit]').click()
 
-input()
+input() 
