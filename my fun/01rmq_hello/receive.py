@@ -9,7 +9,7 @@ def main():
     
     #todo 第三个参数是 virtualHost 默认是 / 
     connection = pika.BlockingConnection(
-        pika.ConnectionParameters('192.168.0.120',
+        pika.ConnectionParameters('192.168.0.101+',
                                   5672,
                                   '/',
                                   credentials))

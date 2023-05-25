@@ -7,7 +7,7 @@ import pika
 #                               credentials=credentials))
 credentials  = pika.PlainCredentials('admin','123456')
 connection = pika.BlockingConnection(
-    pika.ConnectionParameters('192.168.0.120',
+    pika.ConnectionParameters('192.168.0.101',
                               5672,
                               '/',
                               credentials))
