@@ -35,7 +35,7 @@
     - 用 `.` **是不能找多个class的** 比如 `<div class="a b c">`
       - 这里有三个类名，不同类间用空格隔开
       - 错误例子的css选择器： `."a b c"` 是不能找到的，正确只能找一个 `.a`
-      - **不要过分纠结 找不到就换一种思路 实现就好** 当有多个 class 名时：
+      - **不要过分纠结 找不到就换一种思路 实现就好** 当有多个 class 名时：        
         - 用点法 `.a.b`
         - 直接复制法： `[class=""]`
 - [补充练习-股票网站](http://quote.eastmoney.com/center/gridlist.html#hs_a_board)
@@ -64,5 +64,5 @@
   - 使用 `XPATH` **需要限定范围查找时元素时需要加** `.`
     - `eles = wd.find_elements(By.XPATH,'???')`
     - `for ele in eles: ele.wd.find_elements(By.XPATH,'.???'` **在前面加点** `.`
-    - 分析时页面元素时，可以把需要排除的元素和需要找的元素拷贝出来，观察有什么不同
+    - - 分析时页面元素时，可以把需要排除的元素和需要找的元素拷贝出来，观察有什么不同
     - <font color="lightgreen">选择以特定属性开头</font> `a[href^="http"]`
