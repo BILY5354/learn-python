@@ -5,7 +5,7 @@
 import os
 
 # 目标目录
-targetDir = r'E:\learn-python\learn-python\day12\prac_re'
+targetDir = r'E:\learn-python\learn-python\01 py base\day12\prac_reE:\learn-python\learn-python\01 py base\day12\prac_re'
 
 fpathList = []
 
@@ -20,6 +20,8 @@ for (dirpath, dirnames, filenames) in os.walk(targetDir):
         # 把 dirpath 和 每个文件名拼接起来 就是全路径
         fpath = os.path.join(dirpath, fn)
         fpathList.append(fpath)
+
+
 
 for fpath in fpathList:
     linesList = []

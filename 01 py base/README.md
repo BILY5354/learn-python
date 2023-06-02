@@ -31,6 +31,10 @@
 ## 16.调试程序
 ## 17.字典
 ## 18.自定义类
+- [课后练习1](http://v3.byhy.net/prac/pri546/py/018a0y/) `day9/02.py`
+- [补充练习-森林打怪](http://v3.byhy.net/prac/pub/py/0018/) `day9/01.py`
+  - [参考代码](https://gitee.com/jcyrss/byhy/issues/I3BOQZ)
+  - [视频1-2](https://www.bilibili.com/video/BV1VJ411v7zA/?p=54)
 ## 19.异常
 ## 20.再学函数
 ## 通过搜索解决问题

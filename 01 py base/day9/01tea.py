@@ -1,30 +1,27 @@
-from random import randint
+from random import  randint
 import time
 
 # 鹰妖
 # 属性：类型名 typename
-
 
 class Eagle:
     typeName = '鹰妖'
 
 # 狼妖
 # 属性：类型名 typename
-
-
 class Wolf:
     typeName = '狼妖'
 
-# 父类：战士
-
-
+# 父类：战士 
 class Warrior:
 
-    def __init__(self, name):
+    #* 父类没有 strength 没有关系 因为不会实例父类的对象
+    #* 子类会直接传入这些属性
+    def __init__(self,name):
         self.strength = self.maxStrength
         self.name = name
 
-    def heal(self, stoneCount, player):
+    def heal(self,stoneCount,player):
         if player.stoneNumber < stoneCount:
             print('剩余灵石不足')
             return
@@ -35,11 +32,14 @@ class Warrior:
 
         player.stoneNumber -= stoneCount
 
-    def fightWithMonster(self, monster):
+
+    def fightWithMonster(self,monster):
+        #* 创建战斗规则 根据相应的字典去拿扣多少血的值
         if monster.typeName in self.fightRule:
             self.strength -= self.fightRule[monster.typeName]
         else:
             print('不支持的妖怪类型')
+
 
 # 弓箭兵
 # 属性：类型名 typename
@@ -48,15 +48,13 @@ class Warrior:
 #       生命值
 #        名字
 #      和妖怪战斗 fightWithMonster
-
-
 class Archer(Warrior):
     typeName = '弓箭兵'
-    price = 100
-    maxStrength = 100
-    fightRule = {
-        '鹰妖': 20,
-        '狼妖': 80,
+    price         = 100
+    maxStrength   = 100
+    fightRule     = {
+        '鹰妖' : 20,
+        '狼妖' : 80,
     }
 
 
@@ -70,11 +68,11 @@ class Archer(Warrior):
 
 class Axeman(Warrior):
     typeName = '斧头兵'
-    price = 120
-    maxStrength = 120
-    fightRule = {
-        '鹰妖': 80,
-        '狼妖': 20,
+    price         = 120
+    maxStrength   = 120
+    fightRule     = {
+        '鹰妖' : 80,
+        '狼妖' : 20,
     }
 
 
@@ -82,7 +80,7 @@ class Axeman(Warrior):
 # 属性： 灵石数量
 
 class Player:
-    def __init__(self, stoneNumber):
+    def __init__(self,stoneNumber):
         self.stoneNumber = stoneNumber
         self.warriors = {}
 
@@ -115,9 +113,10 @@ class Player:
         3 - 退出 
         : '''
 
+
         while True:
             choice = input(menu)
-            if choice not in ['1', '2', '3']:
+            if choice not in ['1','2','3']:
                 print('输入错误')
                 continue
 
@@ -135,23 +134,24 @@ class Player:
 
     def printInfo(self):
         print('\n您麾下战士情况如下')
-        for name, warrior in self.warriors.items():
+        for name,warrior in self.warriors.items():
             print(f'{name}: {warrior.typeName} 生命值 {warrior.strength}')
 
         print(f'您的灵石还剩余{self.stoneNumber}')
 
 
+
 # 森林
 # 属性： 妖怪
 class Forest:
-    def __init__(self, monster):
+    def __init__(self,monster):
         self.monster = monster
 
 
 # 森林 列表
 forestList = []
 for i in range(7):
-    if randint(0, 1) == 0:
+    if randint(0,1) == 0:
         monster = Eagle()
     else:
         monster = Wolf()
@@ -167,7 +167,7 @@ time.sleep(10)
 print('\n'*20)
 
 
-# 创建玩家
+#创建玩家
 player = Player(1000)
 
 player.hireWarriors()
@@ -176,13 +176,13 @@ player.hireWarriors()
 print('\n\n ****** 出发啦 *******')
 
 
-for no, forest in enumerate(forestList):
+for no,forest in enumerate(forestList):
     # 战斗
     while True:
         print(f'\n\n ### 现在到了第 {no+1} 座森林 ### ')
 
         while True:
-            warriorName = input('您要派出的战士是？')
+            warriorName  = input('您要派出的战士是？')
             if warriorName not in player.warriors:
                 print('没有这个战士')
                 continue
@@ -213,10 +213,10 @@ for no, forest in enumerate(forestList):
         if op == '':
             break
 
-        name, stoneCount = op.split('+')
+        name,stoneCount = op.split('+')
         stoneCount = int(stoneCount)
 
-        player.warriors[name].heal(stoneCount, player)
+        player.warriors[name].heal(stoneCount,player)
 
 
 player.printInfo()
