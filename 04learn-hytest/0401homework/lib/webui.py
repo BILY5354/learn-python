@@ -2,39 +2,36 @@ from hytest import *
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import Select
+import selenium.webdriver.common.keys  as keys
 from time import sleep
 
 
-# * 将一些共通的操作写在次文件
 def open_browser():
     INFO('打开浏览器')
-    # 关闭 chrome 浏览器的日志输出
     options = webdriver.ChromeOptions()
     options.add_experimental_option('excludeSwitches', ['enable-logging'])
 
     wd = webdriver.Chrome(options=options)
     wd.implicitly_wait(10)
 
-    GSTORE['wd'] = wd  # 存储全局变量
-    GSTORE['By'] = By
+    GSTORE['wd'] = wd
+    print(GSTORE['wd'])
 
 
 def mgr_login():
-    wd = GSTORE['wd']
 
+    wd = GSTORE['wd']
     wd.get('http://127.0.0.1/mgr/sign.html')
 
-    wd.find_element_by_id('username').send_keys('byhy')
-    wd.find_element_by_id('password').send_keys('88888888')
+    wd.find_element(By.ID, 'username').send_keys('byhy')
+    wd.find_element(By.ID, 'password').send_keys('88888888')
+    wd.find_element(By.TAG_NAME, 'button').click()
 
-    wd.find_element_by_tag_name('button').click()
 
 # 创建药品或客户
-
-
-def insertData(tList):
+def insert_data(tList):
     wd = GSTORE['wd']
-    for j in range(0, 3):
+    for j in range(0, len(tList), 1):
         # input
         eles = wd.find_elements(
             By.CSS_SELECTOR, '.add-one-area .form-control')
@@ -46,7 +43,7 @@ def insertData(tList):
         sleep(1)
 
 
-def deleteItems(name):
+def delete_items(name):
     wd = GSTORE['wd']
     # 判断 是否还有元素 有的话一直删删删
     while wd.find_elements(By.CSS_SELECTOR, '.content .search-result-item'):
@@ -69,16 +66,18 @@ def deleteItems(name):
                     #! 订单只有一个按钮即删除 所以下标为0
                     wd.find_elements(
                         By.CSS_SELECTOR, '.content .btn-xs')[0].click()
-                    wd.switch_to.alert.accept()  # 点击确认按钮
                     sleep(1)
+                    wd.switch_to.alert.accept()  # 点击确认按钮
                     continue  # 继续下一个框
             else:
                 if name in eleStr:
                     # 如果存在该名字 则删除 并跳出循环 删除为第二个
+                    aa = wd.find_elements(
+                        By.CSS_SELECTOR, '.content .btn-xs')
                     wd.find_elements(
                         By.CSS_SELECTOR, '.content .btn-xs')[1].click()
-                    wd.switch_to.alert.accept()  # 点击确认按钮
                     sleep(1)
+                    wd.switch_to.alert.accept()  # 点击确认按钮
                     continue  # 继续下一个框
 
         # 找不到 name 跳出循环

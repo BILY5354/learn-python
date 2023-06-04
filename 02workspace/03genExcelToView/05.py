@@ -16,7 +16,7 @@ ws.cell(row=1,column=1).hyperlink = link
 
 ws.cell(row=1,column=2).value = "ver2"
 ws.cell(row=1,column=2).style="Hyperlink"
-link = r"E:\learn-python\learn-python\02workspace\03genExcelToView\Output\EP2304005GMK042_20230525_021601.db3"
+link = fr"E:\learn-python\learn-python\02workspace\03genExcelToView\Output\EP2304005GMK042_20230525_021601.db3"
 ws.cell(row=1,column=2).hyperlink = link
 
 
