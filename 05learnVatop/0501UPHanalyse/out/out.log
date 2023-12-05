@@ -1,0 +1,504 @@
+[pos:0#0,0,0 - 0 P]
+10/16 14:10:17.608  [pos:0#0,0,0 - 0 P][Worker 0][Entry] Start Time: 325127166ms
+10/16 14:10:17.843  [pos:0#0,0,0 - 0 P][Worker 0][Entry] End Time: 325127401ms
+10/16 14:10:21.772  [pos:0#0,0,0 - 0 P][Worker 0][Entry] Start Time: 325131330ms
+10/16 14:10:21.850  [pos:0#0,0,0 - 0 P][Worker 0][Entry] End Time: 325131408ms
+10/16 14:10:25.886  [pos:0#0,0,0 - 0 P][Worker 0][Entry] Start Time: 325135444ms
+10/16 14:10:25.985  [pos:0#0,0,0 - 0 P][Worker 0][Entry] End Time: 325135543ms
+[pos:2#0,0,0 - 0 F]
+10/16 14:10:17.608  [pos:2#0,0,0 - 0 F][Worker 0][processOneInspection2] Start Time: 325127166ms
+10/16 14:10:17.608  [pos:2#0,0,0 - 0 F][Worker 0][processOneInspection2] getMovementData Done: 325127166ms
+10/16 14:10:17.608  [pos:2#0,0,0 - 0 F][Worker 0][processOneInspection2] findObject Done: 325127166ms
+10/16 14:10:17.608  [pos:2#0,0,0 - 0 F][Worker 0][processOneInspection2] processOneObject Start: 325127166ms
+10/16 14:10:17.608  [pos:2#0,0,0 - 0 F][Worker 0][processOneObject] Start: 325127166ms
+10/16 14:10:17.842  [pos:2#0,0,0 - 0 F][Worker 0][processOneObject] globalRef app Done: 325127400ms
+10/16 14:10:17.842  [pos:2#0,0,0 - 0 F][Worker 0][processOneObject] priority app Done: 325127400ms
+10/16 14:10:17.842  [pos:2#0,0,0 - 0 F][Worker 0][processOneObject] position app Done: 325127400ms
+10/16 14:10:17.842  [pos:2#0,0,0 - 0 F][Worker 0][processOneObject] normal app preinspect Done: 325127400ms
+10/16 14:10:17.842  [pos:2#0,0,0 - 0 F][Worker 0][processOneInspection2] End Time: 325127400ms
+10/16 14:10:17.842  [pos:2#0,0,0 - 0 F][Worker 0][doProcess1] Start Time: 325127400ms
+10/16 14:10:20.895  [pos:2#0,0,0 - 0 F][Worker -1][doProcess2] Start Time: 325130453ms
+10/16 14:10:20.895  [pos:2#0,0,0 - 0 F][doProcess2] Set Reject Information Time: 325130453ms
+10/16 14:10:20.910  [pos:2#0,0,0 - 0 F][Worker -1][doProcess2] Send Result To Manager Time: 325130468ms
+10/16 14:10:20.910  [pos:2#0,0,0 - 0 F][Worker -1][doProcess2] End Time: 325130468ms
+[pos:2#0,3,0 - 0 F]
+10/16 14:10:21.772  [pos:2#0,3,0 - 0 F][Worker 0][processOneInspection2] Start Time: 325131330ms
+10/16 14:10:21.772  [pos:2#0,3,0 - 0 F][Worker 0][processOneInspection2] getMovementData Done: 325131330ms
+10/16 14:10:21.772  [pos:2#0,3,0 - 0 F][Worker 0][processOneInspection2] findObject Done: 325131330ms
+10/16 14:10:21.772  [pos:2#0,3,0 - 0 F][Worker 0][processOneInspection2] processOneObject Start: 325131330ms
+10/16 14:10:21.772  [pos:2#0,3,0 - 0 F][Worker 0][processOneObject] Start: 325131330ms
+10/16 14:10:21.849  [pos:2#0,3,0 - 0 F][Worker 0][processOneObject] globalRef app Done: 325131406ms
+10/16 14:10:21.849  [pos:2#0,3,0 - 0 F][Worker 0][processOneObject] priority app Done: 325131406ms
+10/16 14:10:21.850  [pos:2#0,3,0 - 0 F][Worker 0][processOneObject] position app Done: 325131407ms
+10/16 14:10:21.850  [pos:2#0,3,0 - 0 F][Worker 0][processOneObject] normal app preinspect Done: 325131407ms
+10/16 14:10:21.850  [pos:2#0,3,0 - 0 F][Worker 0][processOneInspection2] End Time: 325131407ms
+10/16 14:10:21.850  [pos:2#0,3,0 - 0 F][Worker 0][doProcess1] Start Time: 325131408ms
+10/16 14:10:24.931  [pos:2#0,3,0 - 0 F][Worker -1][doProcess2] Start Time: 325134489ms
+10/16 14:10:24.931  [pos:2#0,3,0 - 0 F][doProcess2] Set Reject Information Time: 325134489ms
+10/16 14:10:24.948  [pos:2#0,3,0 - 0 F][Worker -1][doProcess2] Send Result To Manager Time: 325134505ms
+10/16 14:10:24.948  [pos:2#0,3,0 - 0 F][Worker -1][doProcess2] End Time: 325134505ms
+[pos:2#1,3,0 - 0 F]
+10/16 14:10:25.886  [pos:2#1,3,0 - 0 F][Worker 0][processOneInspection2] Start Time: 325135444ms
+10/16 14:10:25.886  [pos:2#1,3,0 - 0 F][Worker 0][processOneInspection2] getMovementData Done: 325135444ms
+10/16 14:10:25.886  [pos:2#1,3,0 - 0 F][Worker 0][processOneInspection2] findObject Done: 325135444ms
+10/16 14:10:25.886  [pos:2#1,3,0 - 0 F][Worker 0][processOneInspection2] processOneObject Start: 325135444ms
+10/16 14:10:25.886  [pos:2#1,3,0 - 0 F][Worker 0][processOneObject] Start: 325135444ms
+10/16 14:10:25.959  [pos:2#1,3,0 - 0 F][Worker 0][processOneObject] globalRef app Done: 325135517ms
+10/16 14:10:25.959  [pos:2#1,3,0 - 0 F][Worker 0][processOneObject] priority app Done: 325135517ms
+10/16 14:10:25.959  [pos:2#1,3,0 - 0 F][Worker 0][processOneObject] position app Done: 325135517ms
+10/16 14:10:25.959  [pos:2#1,3,0 - 0 F][Worker 0][processOneObject] normal app preinspect Done: 325135517ms
+10/16 14:10:25.959  [pos:2#1,3,0 - 0 F][Worker 0][processOneInspection2] End Time: 325135517ms
+10/16 14:10:25.959  [pos:2#1,3,0 - 0 F][Worker 0][doProcess1] Start Time: 325135517ms
+10/16 14:10:25.959  [pos:2#1,3,0 - 0 F][Worker 0][doProcess1] End Time: 325135517ms
+10/16 14:10:25.959  [pos:2#1,3,0 - 0 F][Worker 0][doProcess2] Start Time: 325135517ms
+10/16 14:10:25.959  [pos:2#1,3,0 - 0 F][doProcess2] Set Reject Information Time: 325135517ms
+10/16 14:10:25.985  [pos:2#1,3,0 - 0 F][Worker 0][doProcess2] Send Result To Manager Time: 325135543ms
+10/16 14:10:25.985  [pos:2#1,3,0 - 0 F][Worker 0][doProcess2] End Time: 325135543ms
+10/16 14:11:07.174  [pos:2#1,3,0 - 0 F][Worker 0][Entry] Start Time: 325176730ms
+10/16 14:11:07.283  [pos:2#1,3,0 - 0 F][Worker 1][Entry] Start Time: 325176840ms
+10/16 14:11:07.393  [pos:2#1,3,0 - 0 F][Worker 2][Entry] Start Time: 325176949ms
+10/16 14:11:07.537  [pos:2#1,3,0 - 0 F][Worker 3][Entry] Start Time: 325177093ms
+10/16 14:11:07.539  [pos:2#1,3,0 - 0 F][Worker 0][Entry] End Time: 325177095ms
+10/16 14:11:07.595  [pos:2#1,3,0 - 0 F][Worker 1][Entry] End Time: 325177151ms
+10/16 14:11:07.628  [pos:2#1,3,0 - 0 F][Worker 2][Entry] End Time: 325177184ms
+10/16 14:11:07.761  [pos:2#1,3,0 - 0 F][Worker 3][Entry] End Time: 325177317ms
+[pos:2#0,0,1 - 1 F]
+10/16 14:11:07.174  [pos:2#0,0,1 - 1 F][Worker 0][processOneInspection2] Start Time: 325176730ms
+10/16 14:11:07.174  [pos:2#0,0,1 - 1 F][Worker 0][processOneInspection2] getMovementData Done: 325176730ms
+10/16 14:11:07.174  [pos:2#0,0,1 - 1 F][Worker 0][processOneInspection2] findObject Done: 325176730ms
+10/16 14:11:07.174  [pos:2#0,0,1 - 1 F][Worker 0][processOneInspection2] processOneObject Start: 325176730ms
+10/16 14:11:07.182  [pos:2#0,0,1 - 1 F][Worker 0][processOneObject] Start: 325176738ms
+10/16 14:11:07.216  [pos:2#0,0,1 - 1 F][Worker 0][processOneObject] globalRef app Done: 325176772ms
+10/16 14:11:07.216  [pos:2#0,0,1 - 1 F][Worker 0][processOneObject] priority app Done: 325176772ms
+10/16 14:11:07.286  [pos:2#0,0,1 - 1 F][Worker 0][processOneObject] position app Done: 325176843ms
+10/16 14:11:07.286  [pos:2#0,0,1 - 1 F][Worker 0][processOneObject] normal app preinspect Done: 325176843ms
+10/16 14:11:07.326  [pos:2#0,0,1 - 1 F][Worker 0][processOneObject] 晶粒分析1 app Done: 39ms
+10/16 14:11:07.346  [pos:2#0,0,1 - 1 F][Worker 0][processOneObject] 晶粒分析2 app Done: 20ms
+10/16 14:11:07.385  [pos:2#0,0,1 - 1 F][Worker 0][processOneObject] 金线焊点检测1 app Done: 39ms
+10/16 14:11:07.452  [pos:2#0,0,1 - 1 F][Worker 0][processOneObject] 金线焊点检测2 app Done: 67ms
+10/16 14:11:07.499  [pos:2#0,0,1 - 1 F][Worker 0][processOneObject] 金线焊点检测3 app Done: 47ms
+10/16 14:11:07.520  [pos:2#0,0,1 - 1 F][Worker 0][processOneObject] 基板界面分析 app Done: 20ms
+10/16 14:11:07.526  [pos:2#0,0,1 - 1 F][Worker 0][processOneObject] 晶粒界面分析1 app Done: 6ms
+10/16 14:11:07.530  [pos:2#0,0,1 - 1 F][Worker 0][processOneObject] 晶粒界面分析2 app Done: 4ms
+10/16 14:11:07.538  [pos:2#0,0,1 - 1 F][Worker 0][processOneObject] 单焊点分析 app Done: 8ms
+10/16 14:11:07.538  [pos:2#0,0,1 - 1 F][Worker 0][processOneObject] normal app inspect Done: 325177094ms
+10/16 14:11:07.538  [pos:2#0,0,1 - 1 F][Worker 0][processOneInspection2] End Time: 325177094ms
+10/16 14:11:51.188  [pos:2#0,0,1 - 1 F][Worker 0][processOneInspection2] Start Time: 325220743ms
+10/16 14:11:51.188  [pos:2#0,0,1 - 1 F][Worker 0][processOneInspection2] getMovementData Done: 325220743ms
+10/16 14:11:51.188  [pos:2#0,0,1 - 1 F][Worker 0][processOneInspection2] findObject Done: 325220743ms
+10/16 14:11:51.188  [pos:2#0,0,1 - 1 F][Worker 0][processOneInspection2] processOneObject Start: 325220743ms
+10/16 14:11:51.195  [pos:2#0,0,1 - 1 F][Worker 0][processOneObject] Start: 325220750ms
+10/16 14:11:51.204  [pos:2#0,0,1 - 1 F][Worker 0][processOneObject] globalRef app Done: 325220759ms
+10/16 14:11:51.204  [pos:2#0,0,1 - 1 F][Worker 0][processOneObject] priority app Done: 325220759ms
+10/16 14:11:51.221  [pos:2#0,0,1 - 1 F][Worker 0][processOneObject] position app Done: 325220775ms
+10/16 14:11:51.221  [pos:2#0,0,1 - 1 F][Worker 0][processOneObject] normal app preinspect Done: 325220776ms
+10/16 14:11:51.234  [pos:2#0,0,1 - 1 F][Worker 0][processOneObject] 晶粒分析1 app Done: 13ms
+10/16 14:11:51.249  [pos:2#0,0,1 - 1 F][Worker 0][processOneObject] 晶粒分析2 app Done: 15ms
+10/16 14:11:51.260  [pos:2#0,0,1 - 1 F][Worker 0][processOneObject] 金线焊点检测1 app Done: 11ms
+10/16 14:11:51.298  [pos:2#0,0,1 - 1 F][Worker 0][processOneObject] 金线焊点检测2 app Done: 38ms
+10/16 14:11:51.338  [pos:2#0,0,1 - 1 F][Worker 0][processOneObject] 金线焊点检测3 app Done: 40ms
+10/16 14:11:51.354  [pos:2#0,0,1 - 1 F][Worker 0][processOneObject] 基板界面分析 app Done: 16ms
+10/16 14:11:51.358  [pos:2#0,0,1 - 1 F][Worker 0][processOneObject] 晶粒界面分析1 app Done: 4ms
+10/16 14:11:51.365  [pos:2#0,0,1 - 1 F][Worker 0][processOneObject] 晶粒界面分析2 app Done: 7ms
+10/16 14:11:51.371  [pos:2#0,0,1 - 1 F][Worker 0][processOneObject] 单焊点分析 app Done: 6ms
+10/16 14:11:51.371  [pos:2#0,0,1 - 1 F][Worker 0][processOneObject] normal app inspect Done: 325220926ms
+10/16 14:11:51.371  [pos:2#0,0,1 - 1 F][Worker 0][processOneInspection2] End Time: 325220926ms
+10/16 14:58:00.559  [pos:2#0,0,1 - 1 F][Worker 0][processOneInspection2] Start Time: 327990039ms
+10/16 14:58:00.559  [pos:2#0,0,1 - 1 F][Worker 0][processOneInspection2] getMovementData Done: 327990039ms
+10/16 14:58:00.559  [pos:2#0,0,1 - 1 F][Worker 0][processOneInspection2] findObject Done: 327990039ms
+10/16 14:58:00.559  [pos:2#0,0,1 - 1 F][Worker 0][processOneInspection2] processOneObject Start: 327990039ms
+10/16 14:58:00.566  [pos:2#0,0,1 - 1 F][Worker 0][processOneObject] Start: 327990046ms
+10/16 14:58:00.577  [pos:2#0,0,1 - 1 F][Worker 0][processOneObject] globalRef app Done: 327990057ms
+10/16 14:58:00.577  [pos:2#0,0,1 - 1 F][Worker 0][processOneObject] priority app Done: 327990057ms
+10/16 14:58:00.594  [pos:2#0,0,1 - 1 F][Worker 0][processOneObject] position app Done: 327990074ms
+10/16 14:58:00.594  [pos:2#0,0,1 - 1 F][Worker 0][processOneObject] normal app preinspect Done: 327990074ms
+10/16 14:58:00.611  [pos:2#0,0,1 - 1 F][Worker 0][processOneObject] 晶粒分析1 app Done: 17ms
+10/16 14:58:00.627  [pos:2#0,0,1 - 1 F][Worker 0][processOneObject] 晶粒分析2 app Done: 16ms
+10/16 14:58:00.638  [pos:2#0,0,1 - 1 F][Worker 0][processOneObject] 金线焊点检测1 app Done: 11ms
+10/16 14:58:00.675  [pos:2#0,0,1 - 1 F][Worker 0][processOneObject] 金线焊点检测2 app Done: 37ms
+10/16 14:58:00.715  [pos:2#0,0,1 - 1 F][Worker 0][processOneObject] 金线焊点检测3 app Done: 40ms
+10/16 14:58:00.732  [pos:2#0,0,1 - 1 F][Worker 0][processOneObject] 基板界面分析 app Done: 17ms
+10/16 14:58:00.739  [pos:2#0,0,1 - 1 F][Worker 0][processOneObject] 晶粒界面分析1 app Done: 7ms
+10/16 14:58:00.745  [pos:2#0,0,1 - 1 F][Worker 0][processOneObject] 晶粒界面分析2 app Done: 6ms
+10/16 14:58:00.753  [pos:2#0,0,1 - 1 F][Worker 0][processOneObject] 单焊点分析 app Done: 8ms
+10/16 14:58:00.753  [pos:2#0,0,1 - 1 F][Worker 0][processOneObject] normal app inspect Done: 327990233ms
+10/16 14:58:00.753  [pos:2#0,0,1 - 1 F][Worker 0][processOneInspection2] End Time: 327990233ms
+10/16 14:58:46.736  [pos:2#0,0,1 - 1 F][Worker 0][processOneInspection2] Start Time: 328036215ms
+10/16 14:58:46.736  [pos:2#0,0,1 - 1 F][Worker 0][processOneInspection2] getMovementData Done: 328036215ms
+10/16 14:58:46.736  [pos:2#0,0,1 - 1 F][Worker 0][processOneInspection2] findObject Done: 328036215ms
+10/16 14:58:46.736  [pos:2#0,0,1 - 1 F][Worker 0][processOneInspection2] processOneObject Start: 328036215ms
+10/16 14:58:46.743  [pos:2#0,0,1 - 1 F][Worker 0][processOneObject] Start: 328036222ms
+10/16 14:58:46.753  [pos:2#0,0,1 - 1 F][Worker 0][processOneObject] globalRef app Done: 328036232ms
+10/16 14:58:46.753  [pos:2#0,0,1 - 1 F][Worker 0][processOneObject] priority app Done: 328036232ms
+10/16 14:58:46.770  [pos:2#0,0,1 - 1 F][Worker 0][processOneObject] position app Done: 328036248ms
+10/16 14:58:46.770  [pos:2#0,0,1 - 1 F][Worker 0][processOneObject] normal app preinspect Done: 328036248ms
+10/16 14:58:46.783  [pos:2#0,0,1 - 1 F][Worker 0][processOneObject] 晶粒分析1 app Done: 14ms
+10/16 14:58:46.799  [pos:2#0,0,1 - 1 F][Worker 0][processOneObject] 晶粒分析2 app Done: 16ms
+10/16 14:58:46.812  [pos:2#0,0,1 - 1 F][Worker 0][processOneObject] 金线焊点检测1 app Done: 13ms
+10/16 14:58:46.853  [pos:2#0,0,1 - 1 F][Worker 0][processOneObject] 金线焊点检测2 app Done: 41ms
+10/16 14:58:46.891  [pos:2#0,0,1 - 1 F][Worker 0][processOneObject] 金线焊点检测3 app Done: 38ms
+10/16 14:58:46.904  [pos:2#0,0,1 - 1 F][Worker 0][processOneObject] 基板界面分析 app Done: 13ms
+10/16 14:58:46.910  [pos:2#0,0,1 - 1 F][Worker 0][processOneObject] 晶粒界面分析1 app Done: 5ms
+10/16 14:58:46.915  [pos:2#0,0,1 - 1 F][Worker 0][processOneObject] 晶粒界面分析2 app Done: 5ms
+10/16 14:58:46.921  [pos:2#0,0,1 - 1 F][Worker 0][processOneObject] 单焊点分析 app Done: 6ms
+10/16 14:58:46.921  [pos:2#0,0,1 - 1 F][Worker 0][processOneObject] normal app inspect Done: 328036399ms
+10/16 14:58:46.921  [pos:2#0,0,1 - 1 F][Worker 0][processOneInspection2] End Time: 328036399ms
+[pos:2#0,0,0 - 1 F]
+10/16 14:11:07.283  [pos:2#0,0,0 - 1 F][Worker 1][processOneInspection2] Start Time: 325176840ms
+10/16 14:11:07.283  [pos:2#0,0,0 - 1 F][Worker 1][processOneInspection2] getMovementData Done: 325176840ms
+10/16 14:11:07.283  [pos:2#0,0,0 - 1 F][Worker 1][processOneInspection2] findObject Done: 325176840ms
+10/16 14:11:07.283  [pos:2#0,0,0 - 1 F][Worker 1][processOneInspection2] processOneObject Start: 325176840ms
+10/16 14:11:07.290  [pos:2#0,0,0 - 1 F][Worker 1][processOneObject] Start: 325176846ms
+10/16 14:11:07.299  [pos:2#0,0,0 - 1 F][Worker 1][processOneObject] globalRef app Done: 325176856ms
+10/16 14:11:07.299  [pos:2#0,0,0 - 1 F][Worker 1][processOneObject] priority app Done: 325176856ms
+10/16 14:11:07.316  [pos:2#0,0,0 - 1 F][Worker 1][processOneObject] position app Done: 325176872ms
+10/16 14:11:07.316  [pos:2#0,0,0 - 1 F][Worker 1][processOneObject] normal app preinspect Done: 325176872ms
+10/16 14:11:07.336  [pos:2#0,0,0 - 1 F][Worker 1][processOneObject] 晶粒分析1 app Done: 20ms
+10/16 14:11:07.353  [pos:2#0,0,0 - 1 F][Worker 1][processOneObject] 晶粒分析2 app Done: 17ms
+10/16 14:11:07.458  [pos:2#0,0,0 - 1 F][Worker 1][processOneObject] 金线焊点检测1 app Done: 105ms
+10/16 14:11:07.509  [pos:2#0,0,0 - 1 F][Worker 1][processOneObject] 金线焊点检测2 app Done: 51ms
+10/16 14:11:07.556  [pos:2#0,0,0 - 1 F][Worker 1][processOneObject] 金线焊点检测3 app Done: 47ms
+10/16 14:11:07.575  [pos:2#0,0,0 - 1 F][Worker 1][processOneObject] 基板界面分析 app Done: 19ms
+10/16 14:11:07.581  [pos:2#0,0,0 - 1 F][Worker 1][processOneObject] 晶粒界面分析1 app Done: 6ms
+10/16 14:11:07.587  [pos:2#0,0,0 - 1 F][Worker 1][processOneObject] 晶粒界面分析2 app Done: 6ms
+10/16 14:11:07.594  [pos:2#0,0,0 - 1 F][Worker 1][processOneObject] 单焊点分析 app Done: 7ms
+10/16 14:11:07.595  [pos:2#0,0,0 - 1 F][Worker 1][processOneObject] normal app inspect Done: 325177150ms
+10/16 14:11:07.595  [pos:2#0,0,0 - 1 F][Worker 1][processOneInspection2] End Time: 325177151ms
+10/16 14:11:51.297  [pos:2#0,0,0 - 1 F][Worker 1][processOneInspection2] Start Time: 325220852ms
+10/16 14:11:51.297  [pos:2#0,0,0 - 1 F][Worker 1][processOneInspection2] getMovementData Done: 325220852ms
+10/16 14:11:51.297  [pos:2#0,0,0 - 1 F][Worker 1][processOneInspection2] findObject Done: 325220852ms
+10/16 14:11:51.297  [pos:2#0,0,0 - 1 F][Worker 1][processOneInspection2] processOneObject Start: 325220852ms
+10/16 14:11:51.305  [pos:2#0,0,0 - 1 F][Worker 1][processOneObject] Start: 325220860ms
+10/16 14:11:51.324  [pos:2#0,0,0 - 1 F][Worker 1][processOneObject] globalRef app Done: 325220879ms
+10/16 14:11:51.324  [pos:2#0,0,0 - 1 F][Worker 1][processOneObject] priority app Done: 325220879ms
+10/16 14:11:51.345  [pos:2#0,0,0 - 1 F][Worker 1][processOneObject] position app Done: 325220900ms
+10/16 14:11:51.345  [pos:2#0,0,0 - 1 F][Worker 1][processOneObject] normal app preinspect Done: 325220900ms
+10/16 14:11:51.360  [pos:2#0,0,0 - 1 F][Worker 1][processOneObject] 晶粒分析1 app Done: 15ms
+10/16 14:11:51.371  [pos:2#0,0,0 - 1 F][Worker 0][doProcess1] Start Time: 325220926ms
+10/16 14:11:51.371  [pos:2#0,0,0 - 1 F][Worker 0][doProcess1] End Time: 325220926ms
+10/16 14:11:51.371  [pos:2#0,0,0 - 1 F][Worker 0][doProcess2] Start Time: 325220926ms
+10/16 14:11:51.372  [pos:2#0,0,0 - 1 F][doProcess2] Set Reject Information Time: 325220927ms
+10/16 14:11:51.377  [pos:2#0,0,0 - 1 F][Worker 0][doProcess2] Send Result To Manager Time: 325220932ms
+10/16 14:11:51.377  [pos:2#0,0,0 - 1 F][Worker 0][doProcess2] End Time: 325220932ms
+10/16 14:11:51.381  [pos:2#0,0,0 - 1 F][Worker 1][processOneObject] 晶粒分析2 app Done: 21ms
+10/16 14:11:51.420  [pos:2#0,0,0 - 1 F][Worker 1][processOneObject] 金线焊点检测1 app Done: 39ms
+10/16 14:11:51.462  [pos:2#0,0,0 - 1 F][Worker 1][processOneObject] 金线焊点检测2 app Done: 42ms
+10/16 14:11:51.504  [pos:2#0,0,0 - 1 F][Worker 1][processOneObject] 金线焊点检测3 app Done: 42ms
+10/16 14:11:51.522  [pos:2#0,0,0 - 1 F][Worker 1][processOneObject] 基板界面分析 app Done: 18ms
+10/16 14:11:51.528  [pos:2#0,0,0 - 1 F][Worker 1][processOneObject] 晶粒界面分析1 app Done: 6ms
+10/16 14:11:51.534  [pos:2#0,0,0 - 1 F][Worker 1][processOneObject] 晶粒界面分析2 app Done: 6ms
+10/16 14:11:51.542  [pos:2#0,0,0 - 1 F][Worker 1][processOneObject] 单焊点分析 app Done: 8ms
+10/16 14:11:51.542  [pos:2#0,0,0 - 1 F][Worker 1][processOneObject] normal app inspect Done: 325221097ms
+10/16 14:11:51.542  [pos:2#0,0,0 - 1 F][Worker 1][processOneInspection2] End Time: 325221097ms
+10/16 14:58:00.684  [pos:2#0,0,0 - 1 F][Worker 1][processOneInspection2] Start Time: 327990164ms
+10/16 14:58:00.684  [pos:2#0,0,0 - 1 F][Worker 1][processOneInspection2] getMovementData Done: 327990164ms
+10/16 14:58:00.684  [pos:2#0,0,0 - 1 F][Worker 1][processOneInspection2] findObject Done: 327990164ms
+10/16 14:58:00.684  [pos:2#0,0,0 - 1 F][Worker 1][processOneInspection2] processOneObject Start: 327990164ms
+10/16 14:58:00.692  [pos:2#0,0,0 - 1 F][Worker 1][processOneObject] Start: 327990172ms
+10/16 14:58:00.710  [pos:2#0,0,0 - 1 F][Worker 1][processOneObject] globalRef app Done: 327990190ms
+10/16 14:58:00.711  [pos:2#0,0,0 - 1 F][Worker 1][processOneObject] priority app Done: 327990191ms
+10/16 14:58:00.732  [pos:2#0,0,0 - 1 F][Worker 1][processOneObject] position app Done: 327990212ms
+10/16 14:58:00.732  [pos:2#0,0,0 - 1 F][Worker 1][processOneObject] normal app preinspect Done: 327990212ms
+10/16 14:58:00.748  [pos:2#0,0,0 - 1 F][Worker 1][processOneObject] 晶粒分析1 app Done: 16ms
+10/16 14:58:00.753  [pos:2#0,0,0 - 1 F][Worker 0][doProcess1] Start Time: 327990233ms
+10/16 14:58:00.753  [pos:2#0,0,0 - 1 F][Worker 0][doProcess1] End Time: 327990233ms
+10/16 14:58:00.753  [pos:2#0,0,0 - 1 F][Worker 0][doProcess2] Start Time: 327990233ms
+10/16 14:58:00.754  [pos:2#0,0,0 - 1 F][doProcess2] Set Reject Information Time: 327990234ms
+10/16 14:58:00.759  [pos:2#0,0,0 - 1 F][Worker 0][doProcess2] Send Result To Manager Time: 327990239ms
+10/16 14:58:00.760  [pos:2#0,0,0 - 1 F][Worker 0][doProcess2] End Time: 327990240ms
+10/16 14:58:00.766  [pos:2#0,0,0 - 1 F][Worker 1][processOneObject] 晶粒分析2 app Done: 18ms
+10/16 14:58:00.810  [pos:2#0,0,0 - 1 F][Worker 1][processOneObject] 金线焊点检测1 app Done: 44ms
+10/16 14:58:00.852  [pos:2#0,0,0 - 1 F][Worker 1][processOneObject] 金线焊点检测2 app Done: 42ms
+10/16 14:58:00.895  [pos:2#0,0,0 - 1 F][Worker 1][processOneObject] 金线焊点检测3 app Done: 43ms
+10/16 14:58:00.909  [pos:2#0,0,0 - 1 F][Worker 1][processOneObject] 基板界面分析 app Done: 14ms
+10/16 14:58:00.915  [pos:2#0,0,0 - 1 F][Worker 1][processOneObject] 晶粒界面分析1 app Done: 6ms
+10/16 14:58:00.919  [pos:2#0,0,0 - 1 F][Worker 1][processOneObject] 晶粒界面分析2 app Done: 4ms
+10/16 14:58:00.926  [pos:2#0,0,0 - 1 F][Worker 1][processOneObject] 单焊点分析 app Done: 7ms
+10/16 14:58:00.926  [pos:2#0,0,0 - 1 F][Worker 1][processOneObject] normal app inspect Done: 327990406ms
+10/16 14:58:00.926  [pos:2#0,0,0 - 1 F][Worker 1][processOneInspection2] End Time: 327990406ms
+10/16 14:58:46.835  [pos:2#0,0,0 - 1 F][Worker 1][processOneInspection2] Start Time: 328036314ms
+10/16 14:58:46.835  [pos:2#0,0,0 - 1 F][Worker 1][processOneInspection2] getMovementData Done: 328036314ms
+10/16 14:58:46.835  [pos:2#0,0,0 - 1 F][Worker 1][processOneInspection2] findObject Done: 328036314ms
+10/16 14:58:46.835  [pos:2#0,0,0 - 1 F][Worker 1][processOneInspection2] processOneObject Start: 328036314ms
+10/16 14:58:46.845  [pos:2#0,0,0 - 1 F][Worker 1][processOneObject] Start: 328036324ms
+10/16 14:58:46.857  [pos:2#0,0,0 - 1 F][Worker 1][processOneObject] globalRef app Done: 328036336ms
+10/16 14:58:46.857  [pos:2#0,0,0 - 1 F][Worker 1][processOneObject] priority app Done: 328036336ms
+10/16 14:58:46.889  [pos:2#0,0,0 - 1 F][Worker 1][processOneObject] position app Done: 328036368ms
+10/16 14:58:46.889  [pos:2#0,0,0 - 1 F][Worker 1][processOneObject] normal app preinspect Done: 328036368ms
+10/16 14:58:46.906  [pos:2#0,0,0 - 1 F][Worker 1][processOneObject] 晶粒分析1 app Done: 17ms
+10/16 14:58:46.921  [pos:2#0,0,0 - 1 F][Worker 0][doProcess1] Start Time: 328036399ms
+10/16 14:58:46.921  [pos:2#0,0,0 - 1 F][Worker 0][doProcess1] End Time: 328036399ms
+10/16 14:58:46.921  [pos:2#0,0,0 - 1 F][Worker 0][doProcess2] Start Time: 328036399ms
+10/16 14:58:46.921  [pos:2#0,0,0 - 1 F][doProcess2] Set Reject Information Time: 328036399ms
+10/16 14:58:46.924  [pos:2#0,0,0 - 1 F][Worker 0][doProcess2] Send Result To Manager Time: 328036402ms
+10/16 14:58:46.925  [pos:2#0,0,0 - 1 F][Worker 0][doProcess2] End Time: 328036403ms
+10/16 14:58:46.927  [pos:2#0,0,0 - 1 F][Worker 1][processOneObject] 晶粒分析2 app Done: 20ms
+10/16 14:58:46.967  [pos:2#0,0,0 - 1 F][Worker 1][processOneObject] 金线焊点检测1 app Done: 40ms
+10/16 14:58:47.011  [pos:2#0,0,0 - 1 F][Worker 1][processOneObject] 金线焊点检测2 app Done: 44ms
+10/16 14:58:47.049  [pos:2#0,0,0 - 1 F][Worker 1][processOneObject] 金线焊点检测3 app Done: 38ms
+10/16 14:58:47.063  [pos:2#0,0,0 - 1 F][Worker 1][processOneObject] 基板界面分析 app Done: 14ms
+10/16 14:58:47.068  [pos:2#0,0,0 - 1 F][Worker 1][processOneObject] 晶粒界面分析1 app Done: 5ms
+10/16 14:58:47.073  [pos:2#0,0,0 - 1 F][Worker 1][processOneObject] 晶粒界面分析2 app Done: 5ms
+10/16 14:58:47.083  [pos:2#0,0,0 - 1 F][Worker 1][processOneObject] 单焊点分析 app Done: 10ms
+10/16 14:58:47.083  [pos:2#0,0,0 - 1 F][Worker 1][processOneObject] normal app inspect Done: 328036561ms
+10/16 14:58:47.083  [pos:2#0,0,0 - 1 F][Worker 1][processOneInspection2] End Time: 328036561ms
+[pos:2#0,1,1 - 1 F]
+10/16 14:11:07.394  [pos:2#0,1,1 - 1 F][Worker 2][processOneInspection2] Start Time: 325176949ms
+10/16 14:11:07.394  [pos:2#0,1,1 - 1 F][Worker 2][processOneInspection2] getMovementData Done: 325176950ms
+10/16 14:11:07.394  [pos:2#0,1,1 - 1 F][Worker 2][processOneInspection2] findObject Done: 325176950ms
+10/16 14:11:07.394  [pos:2#0,1,1 - 1 F][Worker 2][processOneInspection2] processOneObject Start: 325176950ms
+10/16 14:11:07.400  [pos:2#0,1,1 - 1 F][Worker 2][processOneObject] Start: 325176956ms
+10/16 14:11:07.411  [pos:2#0,1,1 - 1 F][Worker 2][processOneObject] globalRef app Done: 325176967ms
+10/16 14:11:07.411  [pos:2#0,1,1 - 1 F][Worker 2][processOneObject] priority app Done: 325176967ms
+10/16 14:11:07.432  [pos:2#0,1,1 - 1 F][Worker 2][processOneObject] position app Done: 325176988ms
+10/16 14:11:07.432  [pos:2#0,1,1 - 1 F][Worker 2][processOneObject] normal app preinspect Done: 325176988ms
+10/16 14:11:07.449  [pos:2#0,1,1 - 1 F][Worker 2][processOneObject] 晶粒分析1 app Done: 17ms
+10/16 14:11:07.470  [pos:2#0,1,1 - 1 F][Worker 2][processOneObject] 晶粒分析2 app Done: 21ms
+10/16 14:11:07.485  [pos:2#0,1,1 - 1 F][Worker 2][processOneObject] 金线焊点检测1 app Done: 15ms
+10/16 14:11:07.541  [pos:2#0,1,1 - 1 F][Worker 2][processOneObject] 金线焊点检测2 app Done: 56ms
+10/16 14:11:07.590  [pos:2#0,1,1 - 1 F][Worker 2][processOneObject] 金线焊点检测3 app Done: 49ms
+10/16 14:11:07.609  [pos:2#0,1,1 - 1 F][Worker 2][processOneObject] 基板界面分析 app Done: 19ms
+10/16 14:11:07.615  [pos:2#0,1,1 - 1 F][Worker 2][processOneObject] 晶粒界面分析1 app Done: 6ms
+10/16 14:11:07.621  [pos:2#0,1,1 - 1 F][Worker 2][processOneObject] 晶粒界面分析2 app Done: 6ms
+10/16 14:11:07.628  [pos:2#0,1,1 - 1 F][Worker 2][processOneObject] 单焊点分析 app Done: 7ms
+10/16 14:11:07.628  [pos:2#0,1,1 - 1 F][Worker 2][processOneObject] normal app inspect Done: 325177184ms
+10/16 14:11:07.628  [pos:2#0,1,1 - 1 F][Worker 2][processOneInspection2] End Time: 325177184ms
+10/16 14:11:51.439  [pos:2#0,1,1 - 1 F][Worker 0][processOneInspection2] Start Time: 325220994ms
+10/16 14:11:51.439  [pos:2#0,1,1 - 1 F][Worker 0][processOneInspection2] getMovementData Done: 325220994ms
+10/16 14:11:51.439  [pos:2#0,1,1 - 1 F][Worker 0][processOneInspection2] findObject Done: 325220994ms
+10/16 14:11:51.441  [pos:2#0,1,1 - 1 F][Worker 0][processOneInspection2] processOneObject Start: 325220996ms
+10/16 14:11:51.448  [pos:2#0,1,1 - 1 F][Worker 0][processOneObject] Start: 325221003ms
+10/16 14:11:51.462  [pos:2#0,1,1 - 1 F][Worker 0][processOneObject] globalRef app Done: 325221017ms
+10/16 14:11:51.462  [pos:2#0,1,1 - 1 F][Worker 0][processOneObject] priority app Done: 325221017ms
+10/16 14:11:51.481  [pos:2#0,1,1 - 1 F][Worker 0][processOneObject] position app Done: 325221036ms
+10/16 14:11:51.481  [pos:2#0,1,1 - 1 F][Worker 0][processOneObject] normal app preinspect Done: 325221036ms
+10/16 14:11:51.498  [pos:2#0,1,1 - 1 F][Worker 0][processOneObject] 晶粒分析1 app Done: 17ms
+10/16 14:11:51.519  [pos:2#0,1,1 - 1 F][Worker 0][processOneObject] 晶粒分析2 app Done: 21ms
+10/16 14:11:51.531  [pos:2#0,1,1 - 1 F][Worker 0][processOneObject] 金线焊点检测1 app Done: 12ms
+10/16 14:11:51.542  [pos:2#0,1,1 - 1 F][Worker 1][doProcess1] Start Time: 325221097ms
+10/16 14:11:51.543  [pos:2#0,1,1 - 1 F][Worker 1][doProcess1] End Time: 325221098ms
+10/16 14:11:51.543  [pos:2#0,1,1 - 1 F][Worker 1][doProcess2] Start Time: 325221098ms
+10/16 14:11:51.543  [pos:2#0,1,1 - 1 F][doProcess2] Set Reject Information Time: 325221098ms
+10/16 14:11:51.550  [pos:2#0,1,1 - 1 F][Worker 1][doProcess2] Send Result To Manager Time: 325221104ms
+10/16 14:11:51.550  [pos:2#0,1,1 - 1 F][Worker 1][doProcess2] End Time: 325221105ms
+10/16 14:11:51.572  [pos:2#0,1,1 - 1 F][Worker 0][processOneObject] 金线焊点检测2 app Done: 41ms
+10/16 14:11:51.612  [pos:2#0,1,1 - 1 F][Worker 0][processOneObject] 金线焊点检测3 app Done: 40ms
+10/16 14:11:51.631  [pos:2#0,1,1 - 1 F][Worker 0][processOneObject] 基板界面分析 app Done: 18ms
+10/16 14:11:51.637  [pos:2#0,1,1 - 1 F][Worker 0][processOneObject] 晶粒界面分析1 app Done: 6ms
+10/16 14:11:51.642  [pos:2#0,1,1 - 1 F][Worker 0][processOneObject] 晶粒界面分析2 app Done: 5ms
+10/16 14:11:51.648  [pos:2#0,1,1 - 1 F][Worker 0][processOneObject] 单焊点分析 app Done: 6ms
+10/16 14:11:51.648  [pos:2#0,1,1 - 1 F][Worker 0][processOneObject] normal app inspect Done: 325221202ms
+10/16 14:11:51.648  [pos:2#0,1,1 - 1 F][Worker 0][processOneInspection2] End Time: 325221202ms
+10/16 14:58:00.822  [pos:2#0,1,1 - 1 F][Worker 0][processOneInspection2] Start Time: 327990302ms
+10/16 14:58:00.822  [pos:2#0,1,1 - 1 F][Worker 0][processOneInspection2] getMovementData Done: 327990302ms
+10/16 14:58:00.822  [pos:2#0,1,1 - 1 F][Worker 0][processOneInspection2] findObject Done: 327990302ms
+10/16 14:58:00.823  [pos:2#0,1,1 - 1 F][Worker 0][processOneInspection2] processOneObject Start: 327990303ms
+10/16 14:58:00.831  [pos:2#0,1,1 - 1 F][Worker 0][processOneObject] Start: 327990311ms
+10/16 14:58:00.852  [pos:2#0,1,1 - 1 F][Worker 0][processOneObject] globalRef app Done: 327990332ms
+10/16 14:58:00.852  [pos:2#0,1,1 - 1 F][Worker 0][processOneObject] priority app Done: 327990332ms
+10/16 14:58:00.871  [pos:2#0,1,1 - 1 F][Worker 0][processOneObject] position app Done: 327990351ms
+10/16 14:58:00.872  [pos:2#0,1,1 - 1 F][Worker 0][processOneObject] normal app preinspect Done: 327990352ms
+10/16 14:58:00.891  [pos:2#0,1,1 - 1 F][Worker 0][processOneObject] 晶粒分析1 app Done: 19ms
+10/16 14:58:00.911  [pos:2#0,1,1 - 1 F][Worker 0][processOneObject] 晶粒分析2 app Done: 20ms
+10/16 14:58:00.926  [pos:2#0,1,1 - 1 F][Worker 1][doProcess1] Start Time: 327990406ms
+10/16 14:58:00.926  [pos:2#0,1,1 - 1 F][Worker 1][doProcess1] End Time: 327990406ms
+10/16 14:58:00.926  [pos:2#0,1,1 - 1 F][Worker 1][doProcess2] Start Time: 327990406ms
+10/16 14:58:00.927  [pos:2#0,1,1 - 1 F][doProcess2] Set Reject Information Time: 327990407ms
+10/16 14:58:00.927  [pos:2#0,1,1 - 1 F][Worker 0][processOneObject] 金线焊点检测1 app Done: 16ms
+10/16 14:58:00.948  [pos:2#0,1,1 - 1 F][Worker 1][doProcess2] Send Result To Manager Time: 327990428ms
+10/16 14:58:00.949  [pos:2#0,1,1 - 1 F][Worker 1][doProcess2] End Time: 327990429ms
+10/16 14:58:00.971  [pos:2#0,1,1 - 1 F][Worker 0][processOneObject] 金线焊点检测2 app Done: 44ms
+10/16 14:58:01.015  [pos:2#0,1,1 - 1 F][Worker 0][processOneObject] 金线焊点检测3 app Done: 44ms
+10/16 14:58:01.028  [pos:2#0,1,1 - 1 F][Worker 0][processOneObject] 基板界面分析 app Done: 13ms
+10/16 14:58:01.033  [pos:2#0,1,1 - 1 F][Worker 0][processOneObject] 晶粒界面分析1 app Done: 5ms
+10/16 14:58:01.039  [pos:2#0,1,1 - 1 F][Worker 0][processOneObject] 晶粒界面分析2 app Done: 6ms
+10/16 14:58:01.045  [pos:2#0,1,1 - 1 F][Worker 0][processOneObject] 单焊点分析 app Done: 6ms
+10/16 14:58:01.045  [pos:2#0,1,1 - 1 F][Worker 0][processOneObject] normal app inspect Done: 327990525ms
+10/16 14:58:01.045  [pos:2#0,1,1 - 1 F][Worker 0][processOneInspection2] End Time: 327990525ms
+10/16 14:58:46.959  [pos:2#0,1,1 - 1 F][Worker 0][processOneInspection2] Start Time: 328036437ms
+10/16 14:58:46.959  [pos:2#0,1,1 - 1 F][Worker 0][processOneInspection2] getMovementData Done: 328036437ms
+10/16 14:58:46.959  [pos:2#0,1,1 - 1 F][Worker 0][processOneInspection2] findObject Done: 328036437ms
+10/16 14:58:46.960  [pos:2#0,1,1 - 1 F][Worker 0][processOneInspection2] processOneObject Start: 328036438ms
+10/16 14:58:46.968  [pos:2#0,1,1 - 1 F][Worker 0][processOneObject] Start: 328036446ms
+10/16 14:58:46.979  [pos:2#0,1,1 - 1 F][Worker 0][processOneObject] globalRef app Done: 328036457ms
+10/16 14:58:46.979  [pos:2#0,1,1 - 1 F][Worker 0][processOneObject] priority app Done: 328036457ms
+10/16 14:58:46.999  [pos:2#0,1,1 - 1 F][Worker 0][processOneObject] position app Done: 328036477ms
+10/16 14:58:46.999  [pos:2#0,1,1 - 1 F][Worker 0][processOneObject] normal app preinspect Done: 328036477ms
+10/16 14:58:47.017  [pos:2#0,1,1 - 1 F][Worker 0][processOneObject] 晶粒分析1 app Done: 19ms
+10/16 14:58:47.038  [pos:2#0,1,1 - 1 F][Worker 0][processOneObject] 晶粒分析2 app Done: 20ms
+10/16 14:58:47.052  [pos:2#0,1,1 - 1 F][Worker 0][processOneObject] 金线焊点检测1 app Done: 14ms
+10/16 14:58:47.083  [pos:2#0,1,1 - 1 F][Worker 1][doProcess1] Start Time: 328036561ms
+10/16 14:58:47.083  [pos:2#0,1,1 - 1 F][Worker 1][doProcess1] End Time: 328036561ms
+10/16 14:58:47.083  [pos:2#0,1,1 - 1 F][Worker 1][doProcess2] Start Time: 328036561ms
+10/16 14:58:47.084  [pos:2#0,1,1 - 1 F][doProcess2] Set Reject Information Time: 328036562ms
+10/16 14:58:47.094  [pos:2#0,1,1 - 1 F][Worker 0][processOneObject] 金线焊点检测2 app Done: 42ms
+10/16 14:58:47.110  [pos:2#0,1,1 - 1 F][Worker 1][doProcess2] Send Result To Manager Time: 328036588ms
+10/16 14:58:47.110  [pos:2#0,1,1 - 1 F][Worker 1][doProcess2] End Time: 328036588ms
+10/16 14:58:47.134  [pos:2#0,1,1 - 1 F][Worker 0][processOneObject] 金线焊点检测3 app Done: 41ms
+10/16 14:58:47.148  [pos:2#0,1,1 - 1 F][Worker 0][processOneObject] 基板界面分析 app Done: 14ms
+10/16 14:58:47.153  [pos:2#0,1,1 - 1 F][Worker 0][processOneObject] 晶粒界面分析1 app Done: 5ms
+10/16 14:58:47.157  [pos:2#0,1,1 - 1 F][Worker 0][processOneObject] 晶粒界面分析2 app Done: 4ms
+10/16 14:58:47.163  [pos:2#0,1,1 - 1 F][Worker 0][processOneObject] 单焊点分析 app Done: 6ms
+10/16 14:58:47.163  [pos:2#0,1,1 - 1 F][Worker 0][processOneObject] normal app inspect Done: 328036642ms
+10/16 14:58:47.163  [pos:2#0,1,1 - 1 F][Worker 0][processOneInspection2] End Time: 328036642ms
+[pos:2#0,1,0 - 1 F]
+10/16 14:11:07.537  [pos:2#0,1,0 - 1 F][Worker 3][processOneInspection2] Start Time: 325177093ms
+10/16 14:11:07.537  [pos:2#0,1,0 - 1 F][Worker 3][processOneInspection2] getMovementData Done: 325177093ms
+10/16 14:11:07.537  [pos:2#0,1,0 - 1 F][Worker 3][processOneInspection2] findObject Done: 325177093ms
+10/16 14:11:07.537  [pos:2#0,1,0 - 1 F][Worker 3][processOneInspection2] processOneObject Start: 325177093ms
+10/16 14:11:07.538  [pos:2#0,1,0 - 1 F][Worker 0][doProcess1] Start Time: 325177094ms
+10/16 14:11:07.547  [pos:2#0,1,0 - 1 F][Worker 3][processOneObject] Start: 325177103ms
+10/16 14:11:07.562  [pos:2#0,1,0 - 1 F][Worker 3][processOneObject] globalRef app Done: 325177118ms
+10/16 14:11:07.562  [pos:2#0,1,0 - 1 F][Worker 3][processOneObject] priority app Done: 325177118ms
+10/16 14:11:07.585  [pos:2#0,1,0 - 1 F][Worker 3][processOneObject] position app Done: 325177141ms
+10/16 14:11:07.585  [pos:2#0,1,0 - 1 F][Worker 3][processOneObject] normal app preinspect Done: 325177141ms
+10/16 14:11:07.595  [pos:2#0,1,0 - 1 F][Worker 1][doProcess1] Start Time: 325177151ms
+10/16 14:11:07.605  [pos:2#0,1,0 - 1 F][Worker 3][processOneObject] 晶粒分析1 app Done: 20ms
+10/16 14:11:07.622  [pos:2#0,1,0 - 1 F][Worker 3][processOneObject] 晶粒分析2 app Done: 17ms
+10/16 14:11:07.628  [pos:2#0,1,0 - 1 F][Worker 2][doProcess1] Start Time: 325177184ms
+10/16 14:11:07.662  [pos:2#0,1,0 - 1 F][Worker 3][processOneObject] 金线焊点检测1 app Done: 40ms
+10/16 14:11:07.698  [pos:2#0,1,0 - 1 F][Worker 3][processOneObject] 金线焊点检测2 app Done: 35ms
+10/16 14:11:07.733  [pos:2#0,1,0 - 1 F][Worker 3][processOneObject] 金线焊点检测3 app Done: 35ms
+10/16 14:11:07.747  [pos:2#0,1,0 - 1 F][Worker 3][processOneObject] 基板界面分析 app Done: 14ms
+10/16 14:11:07.751  [pos:2#0,1,0 - 1 F][Worker 3][processOneObject] 晶粒界面分析1 app Done: 4ms
+10/16 14:11:07.755  [pos:2#0,1,0 - 1 F][Worker 3][processOneObject] 晶粒界面分析2 app Done: 4ms
+10/16 14:11:07.760  [pos:2#0,1,0 - 1 F][Worker 3][processOneObject] 单焊点分析 app Done: 5ms
+10/16 14:11:07.760  [pos:2#0,1,0 - 1 F][Worker 3][processOneObject] normal app inspect Done: 325177316ms
+10/16 14:11:07.760  [pos:2#0,1,0 - 1 F][Worker 3][processOneInspection2] End Time: 325177316ms
+10/16 14:11:07.760  [pos:2#0,1,0 - 1 F][Worker 3][doProcess1] Start Time: 325177316ms
+10/16 14:11:11.118  [pos:2#0,1,0 - 1 F][Worker -1][doProcess2] Start Time: 325180675ms
+10/16 14:11:11.150  [pos:2#0,1,0 - 1 F][doProcess2] Set Reject Information Time: 325180706ms
+10/16 14:11:11.165  [pos:2#0,1,0 - 1 F][Worker -1][doProcess2] Send Result To Manager Time: 325180721ms
+10/16 14:11:11.165  [pos:2#0,1,0 - 1 F][Worker -1][doProcess2] End Time: 325180721ms
+10/16 14:11:11.695  [pos:2#0,1,0 - 1 F][Worker -1][doProcess2] Start Time: 325181251ms
+10/16 14:11:11.695  [pos:2#0,1,0 - 1 F][doProcess2] Set Reject Information Time: 325181251ms
+10/16 14:11:11.712  [pos:2#0,1,0 - 1 F][Worker -1][doProcess2] Send Result To Manager Time: 325181268ms
+10/16 14:11:11.712  [pos:2#0,1,0 - 1 F][Worker -1][doProcess2] End Time: 325181268ms
+10/16 14:11:12.242  [pos:2#0,1,0 - 1 F][Worker -1][doProcess2] Start Time: 325181798ms
+10/16 14:11:12.242  [pos:2#0,1,0 - 1 F][doProcess2] Set Reject Information Time: 325181798ms
+10/16 14:11:12.259  [pos:2#0,1,0 - 1 F][Worker -1][doProcess2] Send Result To Manager Time: 325181815ms
+10/16 14:11:12.259  [pos:2#0,1,0 - 1 F][Worker -1][doProcess2] End Time: 325181815ms
+10/16 14:11:12.788  [pos:2#0,1,0 - 1 F][Worker -1][doProcess2] Start Time: 325182344ms
+10/16 14:11:12.788  [pos:2#0,1,0 - 1 F][doProcess2] Set Reject Information Time: 325182344ms
+10/16 14:11:12.804  [pos:2#0,1,0 - 1 F][Worker -1][doProcess2] Send Result To Manager Time: 325182360ms
+10/16 14:11:12.819  [pos:2#0,1,0 - 1 F][Worker -1][doProcess2] End Time: 325182375ms
+10/16 14:11:51.188  [pos:2#0,1,0 - 1 F][Worker 0][Entry] Start Time: 325220743ms
+10/16 14:11:51.297  [pos:2#0,1,0 - 1 F][Worker 1][Entry] Start Time: 325220852ms
+10/16 14:11:51.377  [pos:2#0,1,0 - 1 F][Worker 0][Entry] End Time: 325220932ms
+10/16 14:11:51.439  [pos:2#0,1,0 - 1 F][Worker 0][Entry] Start Time: 325220994ms
+10/16 14:11:51.550  [pos:2#0,1,0 - 1 F][Worker 1][Entry] End Time: 325221105ms
+10/16 14:11:51.579  [pos:2#0,1,0 - 1 F][Worker 1][Entry] Start Time: 325221134ms
+10/16 14:11:51.579  [pos:2#0,1,0 - 1 F][Worker 1][processOneInspection2] Start Time: 325221134ms
+10/16 14:11:51.579  [pos:2#0,1,0 - 1 F][Worker 1][processOneInspection2] getMovementData Done: 325221134ms
+10/16 14:11:51.579  [pos:2#0,1,0 - 1 F][Worker 1][processOneInspection2] findObject Done: 325221134ms
+10/16 14:11:51.580  [pos:2#0,1,0 - 1 F][Worker 1][processOneInspection2] processOneObject Start: 325221135ms
+10/16 14:11:51.586  [pos:2#0,1,0 - 1 F][Worker 1][processOneObject] Start: 325221141ms
+10/16 14:11:51.599  [pos:2#0,1,0 - 1 F][Worker 1][processOneObject] globalRef app Done: 325221154ms
+10/16 14:11:51.599  [pos:2#0,1,0 - 1 F][Worker 1][processOneObject] priority app Done: 325221154ms
+10/16 14:11:51.618  [pos:2#0,1,0 - 1 F][Worker 1][processOneObject] position app Done: 325221172ms
+10/16 14:11:51.618  [pos:2#0,1,0 - 1 F][Worker 1][processOneObject] normal app preinspect Done: 325221172ms
+10/16 14:11:51.636  [pos:2#0,1,0 - 1 F][Worker 1][processOneObject] 晶粒分析1 app Done: 18ms
+10/16 14:11:51.648  [pos:2#0,1,0 - 1 F][Worker 0][doProcess1] Start Time: 325221202ms
+10/16 14:11:51.649  [pos:2#0,1,0 - 1 F][Worker 0][doProcess1] End Time: 325221203ms
+10/16 14:11:51.649  [pos:2#0,1,0 - 1 F][Worker 0][doProcess2] Start Time: 325221203ms
+10/16 14:11:51.649  [pos:2#0,1,0 - 1 F][doProcess2] Set Reject Information Time: 325221203ms
+10/16 14:11:51.654  [pos:2#0,1,0 - 1 F][Worker 1][processOneObject] 晶粒分析2 app Done: 18ms
+10/16 14:11:51.657  [pos:2#0,1,0 - 1 F][Worker 0][doProcess2] Send Result To Manager Time: 325221212ms
+10/16 14:11:51.657  [pos:2#0,1,0 - 1 F][Worker 0][doProcess2] End Time: 325221212ms
+10/16 14:11:51.657  [pos:2#0,1,0 - 1 F][Worker 0][Entry] End Time: 325221212ms
+10/16 14:11:51.692  [pos:2#0,1,0 - 1 F][Worker 1][processOneObject] 金线焊点检测1 app Done: 39ms
+10/16 14:11:51.729  [pos:2#0,1,0 - 1 F][Worker 1][processOneObject] 金线焊点检测2 app Done: 37ms
+10/16 14:11:51.761  [pos:2#0,1,0 - 1 F][Worker 1][processOneObject] 金线焊点检测3 app Done: 32ms
+10/16 14:11:51.775  [pos:2#0,1,0 - 1 F][Worker 1][processOneObject] 基板界面分析 app Done: 14ms
+10/16 14:11:51.779  [pos:2#0,1,0 - 1 F][Worker 1][processOneObject] 晶粒界面分析1 app Done: 4ms
+10/16 14:11:51.783  [pos:2#0,1,0 - 1 F][Worker 1][processOneObject] 晶粒界面分析2 app Done: 4ms
+10/16 14:11:51.789  [pos:2#0,1,0 - 1 F][Worker 1][processOneObject] 单焊点分析 app Done: 6ms
+10/16 14:11:51.789  [pos:2#0,1,0 - 1 F][Worker 1][processOneObject] normal app inspect Done: 325221344ms
+10/16 14:11:51.789  [pos:2#0,1,0 - 1 F][Worker 1][processOneInspection2] End Time: 325221344ms
+10/16 14:11:51.789  [pos:2#0,1,0 - 1 F][Worker 1][doProcess1] Start Time: 325221344ms
+10/16 14:11:51.789  [pos:2#0,1,0 - 1 F][Worker 1][doProcess1] End Time: 325221344ms
+10/16 14:11:51.789  [pos:2#0,1,0 - 1 F][Worker 1][doProcess2] Start Time: 325221344ms
+10/16 14:11:51.789  [pos:2#0,1,0 - 1 F][doProcess2] Set Reject Information Time: 325221344ms
+10/16 14:11:51.794  [pos:2#0,1,0 - 1 F][Worker 1][doProcess2] Send Result To Manager Time: 325221349ms
+10/16 14:11:51.810  [pos:2#0,1,0 - 1 F][Worker 1][doProcess2] End Time: 325221365ms
+10/16 14:11:51.810  [pos:2#0,1,0 - 1 F][Worker 1][Entry] End Time: 325221365ms
+10/16 14:58:00.559  [pos:2#0,1,0 - 1 F][Worker 0][Entry] Start Time: 327990039ms
+10/16 14:58:00.684  [pos:2#0,1,0 - 1 F][Worker 1][Entry] Start Time: 327990164ms
+10/16 14:58:00.760  [pos:2#0,1,0 - 1 F][Worker 0][Entry] End Time: 327990240ms
+10/16 14:58:00.822  [pos:2#0,1,0 - 1 F][Worker 0][Entry] Start Time: 327990302ms
+10/16 14:58:00.949  [pos:2#0,1,0 - 1 F][Worker 1][Entry] End Time: 327990429ms
+10/16 14:58:00.961  [pos:2#0,1,0 - 1 F][Worker 1][Entry] Start Time: 327990441ms
+10/16 14:58:00.961  [pos:2#0,1,0 - 1 F][Worker 1][processOneInspection2] Start Time: 327990441ms
+10/16 14:58:00.961  [pos:2#0,1,0 - 1 F][Worker 1][processOneInspection2] getMovementData Done: 327990441ms
+10/16 14:58:00.961  [pos:2#0,1,0 - 1 F][Worker 1][processOneInspection2] findObject Done: 327990441ms
+10/16 14:58:00.962  [pos:2#0,1,0 - 1 F][Worker 1][processOneInspection2] processOneObject Start: 327990442ms
+10/16 14:58:00.972  [pos:2#0,1,0 - 1 F][Worker 1][processOneObject] Start: 327990452ms
+10/16 14:58:00.983  [pos:2#0,1,0 - 1 F][Worker 1][processOneObject] globalRef app Done: 327990463ms
+10/16 14:58:00.983  [pos:2#0,1,0 - 1 F][Worker 1][processOneObject] priority app Done: 327990463ms
+10/16 14:58:01.006  [pos:2#0,1,0 - 1 F][Worker 1][processOneObject] position app Done: 327990486ms
+10/16 14:58:01.007  [pos:2#0,1,0 - 1 F][Worker 1][processOneObject] normal app preinspect Done: 327990487ms
+10/16 14:58:01.027  [pos:2#0,1,0 - 1 F][Worker 1][processOneObject] 晶粒分析1 app Done: 20ms
+10/16 14:58:01.045  [pos:2#0,1,0 - 1 F][Worker 0][doProcess1] Start Time: 327990525ms
+10/16 14:58:01.045  [pos:2#0,1,0 - 1 F][Worker 0][doProcess1] End Time: 327990525ms
+10/16 14:58:01.045  [pos:2#0,1,0 - 1 F][Worker 0][doProcess2] Start Time: 327990525ms
+10/16 14:58:01.046  [pos:2#0,1,0 - 1 F][doProcess2] Set Reject Information Time: 327990526ms
+10/16 14:58:01.048  [pos:2#0,1,0 - 1 F][Worker 1][processOneObject] 晶粒分析2 app Done: 21ms
+10/16 14:58:01.053  [pos:2#0,1,0 - 1 F][Worker 0][doProcess2] Send Result To Manager Time: 327990533ms
+10/16 14:58:01.053  [pos:2#0,1,0 - 1 F][Worker 0][doProcess2] End Time: 327990533ms
+10/16 14:58:01.054  [pos:2#0,1,0 - 1 F][Worker 0][Entry] End Time: 327990534ms
+10/16 14:58:01.090  [pos:2#0,1,0 - 1 F][Worker 1][processOneObject] 金线焊点检测1 app Done: 42ms
+10/16 14:58:01.129  [pos:2#0,1,0 - 1 F][Worker 1][processOneObject] 金线焊点检测2 app Done: 39ms
+10/16 14:58:01.162  [pos:2#0,1,0 - 1 F][Worker 1][processOneObject] 金线焊点检测3 app Done: 33ms
+10/16 14:58:01.188  [pos:2#0,1,0 - 1 F][Worker 1][processOneObject] 基板界面分析 app Done: 26ms
+10/16 14:58:01.193  [pos:2#0,1,0 - 1 F][Worker 1][processOneObject] 晶粒界面分析1 app Done: 5ms
+10/16 14:58:01.197  [pos:2#0,1,0 - 1 F][Worker 1][processOneObject] 晶粒界面分析2 app Done: 4ms
+10/16 14:58:01.203  [pos:2#0,1,0 - 1 F][Worker 1][processOneObject] 单焊点分析 app Done: 6ms
+10/16 14:58:01.203  [pos:2#0,1,0 - 1 F][Worker 1][processOneObject] normal app inspect Done: 327990683ms
+10/16 14:58:01.203  [pos:2#0,1,0 - 1 F][Worker 1][processOneInspection2] End Time: 327990683ms
+10/16 14:58:01.203  [pos:2#0,1,0 - 1 F][Worker 1][doProcess1] Start Time: 327990683ms
+10/16 14:58:01.203  [pos:2#0,1,0 - 1 F][Worker 1][doProcess1] End Time: 327990683ms
+10/16 14:58:01.203  [pos:2#0,1,0 - 1 F][Worker 1][doProcess2] Start Time: 327990683ms
+10/16 14:58:01.204  [pos:2#0,1,0 - 1 F][doProcess2] Set Reject Information Time: 327990684ms
+10/16 14:58:01.219  [pos:2#0,1,0 - 1 F][Worker 1][doProcess2] Send Result To Manager Time: 327990699ms
+10/16 14:58:01.230  [pos:2#0,1,0 - 1 F][Worker 1][doProcess2] End Time: 327990710ms
+10/16 14:58:01.230  [pos:2#0,1,0 - 1 F][Worker 1][Entry] End Time: 327990710ms
+10/16 14:58:46.736  [pos:2#0,1,0 - 1 F][Worker 0][Entry] Start Time: 328036215ms
+10/16 14:58:46.835  [pos:2#0,1,0 - 1 F][Worker 1][Entry] Start Time: 328036314ms
+10/16 14:58:46.925  [pos:2#0,1,0 - 1 F][Worker 0][Entry] End Time: 328036403ms
+10/16 14:58:46.959  [pos:2#0,1,0 - 1 F][Worker 0][Entry] Start Time: 328036437ms
+10/16 14:58:47.094  [pos:2#0,1,0 - 1 F][Worker 2][Entry] Start Time: 328036572ms
+10/16 14:58:47.094  [pos:2#0,1,0 - 1 F][Worker 2][processOneInspection2] Start Time: 328036572ms
+10/16 14:58:47.094  [pos:2#0,1,0 - 1 F][Worker 2][processOneInspection2] getMovementData Done: 328036572ms
+10/16 14:58:47.094  [pos:2#0,1,0 - 1 F][Worker 2][processOneInspection2] findObject Done: 328036572ms
+10/16 14:58:47.094  [pos:2#0,1,0 - 1 F][Worker 2][processOneInspection2] processOneObject Start: 328036572ms
+10/16 14:58:47.102  [pos:2#0,1,0 - 1 F][Worker 2][processOneObject] Start: 328036580ms
+10/16 14:58:47.110  [pos:2#0,1,0 - 1 F][Worker 1][Entry] End Time: 328036588ms
+10/16 14:58:47.113  [pos:2#0,1,0 - 1 F][Worker 2][processOneObject] globalRef app Done: 328036591ms
+10/16 14:58:47.113  [pos:2#0,1,0 - 1 F][Worker 2][processOneObject] priority app Done: 328036591ms
+10/16 14:58:47.130  [pos:2#0,1,0 - 1 F][Worker 2][processOneObject] position app Done: 328036609ms
+10/16 14:58:47.131  [pos:2#0,1,0 - 1 F][Worker 2][processOneObject] normal app preinspect Done: 328036610ms
+10/16 14:58:47.146  [pos:2#0,1,0 - 1 F][Worker 2][processOneObject] 晶粒分析1 app Done: 15ms
+10/16 14:58:47.163  [pos:2#0,1,0 - 1 F][Worker 0][doProcess1] Start Time: 328036642ms
+10/16 14:58:47.164  [pos:2#0,1,0 - 1 F][Worker 0][doProcess1] End Time: 328036643ms
+10/16 14:58:47.164  [pos:2#0,1,0 - 1 F][Worker 0][doProcess2] Start Time: 328036643ms
+10/16 14:58:47.164  [pos:2#0,1,0 - 1 F][doProcess2] Set Reject Information Time: 328036643ms
+10/16 14:58:47.164  [pos:2#0,1,0 - 1 F][Worker 2][processOneObject] 晶粒分析2 app Done: 18ms
+10/16 14:58:47.168  [pos:2#0,1,0 - 1 F][Worker 0][doProcess2] Send Result To Manager Time: 328036647ms
+10/16 14:58:47.169  [pos:2#0,1,0 - 1 F][Worker 0][doProcess2] End Time: 328036648ms
+10/16 14:58:47.169  [pos:2#0,1,0 - 1 F][Worker 0][Entry] End Time: 328036648ms
+10/16 14:58:47.202  [pos:2#0,1,0 - 1 F][Worker 2][processOneObject] 金线焊点检测1 app Done: 38ms
+10/16 14:58:47.236  [pos:2#0,1,0 - 1 F][Worker 2][processOneObject] 金线焊点检测2 app Done: 34ms
+10/16 14:58:47.268  [pos:2#0,1,0 - 1 F][Worker 2][processOneObject] 金线焊点检测3 app Done: 32ms
+10/16 14:58:47.282  [pos:2#0,1,0 - 1 F][Worker 2][processOneObject] 基板界面分析 app Done: 14ms
+10/16 14:58:47.286  [pos:2#0,1,0 - 1 F][Worker 2][processOneObject] 晶粒界面分析1 app Done: 4ms
+10/16 14:58:47.290  [pos:2#0,1,0 - 1 F][Worker 2][processOneObject] 晶粒界面分析2 app Done: 4ms
+10/16 14:58:47.296  [pos:2#0,1,0 - 1 F][Worker 2][processOneObject] 单焊点分析 app Done: 6ms
+10/16 14:58:47.296  [pos:2#0,1,0 - 1 F][Worker 2][processOneObject] normal app inspect Done: 328036775ms
+10/16 14:58:47.297  [pos:2#0,1,0 - 1 F][Worker 2][processOneInspection2] End Time: 328036775ms
+10/16 14:58:47.297  [pos:2#0,1,0 - 1 F][Worker 2][doProcess1] Start Time: 328036776ms
+10/16 14:58:47.297  [pos:2#0,1,0 - 1 F][Worker 2][doProcess1] End Time: 328036776ms
+10/16 14:58:47.297  [pos:2#0,1,0 - 1 F][Worker 2][doProcess2] Start Time: 328036776ms
+10/16 14:58:47.297  [pos:2#0,1,0 - 1 F][doProcess2] Set Reject Information Time: 328036776ms
+10/16 14:58:47.308  [pos:2#0,1,0 - 1 F][Worker 2][doProcess2] Send Result To Manager Time: 328036787ms
+10/16 14:58:47.319  [pos:2#0,1,0 - 1 F][Worker 2][doProcess2] End Time: 328036797ms
+10/16 14:58:47.319  [pos:2#0,1,0 - 1 F][Worker 2][Entry] End Time: 328036797ms

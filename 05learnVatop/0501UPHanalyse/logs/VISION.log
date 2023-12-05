@@ -1,0 +1,287 @@
+
+10/18 09:22:09.399w 结束批次 1016test_huarui1，但未保存报告！
+10/18 09:22:09.348  [IPC simple] ID: 1525, End: 480636720ms
+10/18 09:22:09.348  Ipc: EndLot
+10/18 09:22:09.348  [IPC simple] ID: 1525, Start: 480636720ms
+10/18 09:22:09.345  [IPC simple] ID: 1003, End: 480636717ms
+10/18 09:22:09.345w close DBFile
+10/18 09:22:09.345w stop DBLogging
+10/18 09:22:09.345w Terminating inspection
+10/18 09:22:09.345  [IPC simple] ID: 1003, Start: 480636717ms
+10/18 09:22:03.630  [IPC simple] ID: 1003, End: 480631001ms
+10/18 09:22:03.519w close DBFile
+10/18 09:22:03.519w stop DBLogging
+10/18 09:22:02.404w **** ... Push Thread Stopped ****
+10/18 09:22:02.404w stopping.. Push Thread
+10/18 09:22:02.404w Terminating inspection
+10/18 09:22:02.404  [IPC simple] ID: 1003, Start: 480629776ms
+10/18 09:22:00.780  [pos:0#0,0,0 - 0 P][Worker 1][Entry] End Time: 480628151ms
+10/18 09:22:00.780  [pos:2#0,1,0 - 1 F][Worker 1][doProcess2] End Time: 480628151ms
+10/18 09:22:00.780E ----- frame ended ------
+10/18 09:22:00.766w 图像0,1,0处理完毕，发送 INS_CMD_VISION_FINISH_ONE_INDEX_UNIT:
+10/18 09:22:00.764  Detected end-of-frame 2
+10/18 09:22:00.764  Del F2 0,1,0,T186 last 0 F1
+10/18 09:22:00.764  [pos:2#0,1,0 - 1 F][Worker 1][doProcess2] Send Result To Manager Time: 480628135ms
+10/18 09:22:00.764  #5 - finish obj 1,0
+10/18 09:22:00.764w sharing result 1,0
+10/18 09:22:00.748w #4X - result unit 1:0,1,0
+10/18 09:22:00.748  [pos:2#0,1,0 - 1 F][doProcess2] Set Reject Information Time: 480628119ms
+10/18 09:22:00.748  [pos:2#0,1,0 - 1 F][Worker 1][doProcess2] Start Time: 480628119ms
+10/18 09:22:00.748  [pos:2#0,1,0 - 1 F][Worker 1][doProcess1] End Time: 480628119ms
+10/18 09:22:00.747  [pos:2#0,1,0 - 1 F][Worker 1][doProcess1] Start Time: 480628118ms
+10/18 09:22:00.747  [pos:2#0,1,0 - 1 F][Worker 1][processOneInspection2] End Time: 480628118ms
+10/18 09:22:00.747  [pos:2#0,1,0 - 1 F][Worker 1][processOneObject] normal app inspect Done: 480628118ms
+10/18 09:22:00.747  [pos:2#0,1,0 - 1 F][Worker 1][processOneObject] 单焊点分析 app Done: 6ms
+10/18 09:22:00.741  [pos:2#0,1,0 - 1 F][Worker 1][processOneObject] 晶粒界面分析2 app Done: 5ms
+10/18 09:22:00.736  [pos:2#0,1,0 - 1 F][Worker 1][processOneObject] 晶粒界面分析1 app Done: 5ms
+10/18 09:22:00.731  [pos:2#0,1,0 - 1 F][Worker 1][processOneObject] 基板界面分析 app Done: 14ms
+10/18 09:22:00.717  [pos:2#0,1,0 - 1 F][Worker 1][processOneObject] 复制于 金线焊点检测1 app Done: 12ms
+10/18 09:22:00.705  [pos:2#0,1,0 - 1 F][Worker 1][processOneObject] 金线焊点检测3 app Done: 14ms
+10/18 09:22:00.691  [pos:2#0,1,0 - 1 F][Worker 1][processOneObject] 金线焊点检测2 app Done: 15ms
+10/18 09:22:00.676  [pos:2#0,1,0 - 1 F][Worker 1][processOneObject] 金线焊点检测1 app Done: 16ms
+10/18 09:22:00.658  [pos:2#0,1,0 - 1 F][Worker 1][processOneObject] 晶粒分析2 app Done: 20ms
+10/18 09:22:00.657  [pos:0#0,0,0 - 0 P][Worker 0][Entry] End Time: 480628029ms
+10/18 09:22:00.657  [pos:2#0,1,0 - 1 F][Worker 0][doProcess2] End Time: 480628029ms
+10/18 09:22:00.655  Del F2 0,1,1,T203 last 1 F2
+10/18 09:22:00.655  [pos:2#0,1,0 - 1 F][Worker 0][doProcess2] Send Result To Manager Time: 480628027ms
+10/18 09:22:00.654  #5 - finish obj 1,1
+10/18 09:22:00.654w sharing result 1,1
+10/18 09:22:00.647w #4X - result unit 1:0,1,1
+10/18 09:22:00.647  [pos:2#0,1,0 - 1 F][doProcess2] Set Reject Information Time: 480628019ms
+10/18 09:22:00.647  [pos:2#0,1,0 - 1 F][Worker 0][doProcess2] Start Time: 480628019ms
+10/18 09:22:00.647  [pos:2#0,1,0 - 1 F][Worker 0][doProcess1] End Time: 480628019ms
+10/18 09:22:00.647  [pos:2#0,1,0 - 1 F][Worker 0][doProcess1] Start Time: 480628019ms
+10/18 09:22:00.647  [pos:2#0,1,1 - 1 F][Worker 0][processOneInspection2] End Time: 480628019ms
+10/18 09:22:00.647  [pos:2#0,1,1 - 1 F][Worker 0][processOneObject] normal app inspect Done: 480628019ms
+10/18 09:22:00.647  [pos:2#0,1,1 - 1 F][Worker 0][processOneObject] 单焊点分析 app Done: 8ms
+10/18 09:22:00.639  [pos:2#0,1,1 - 1 F][Worker 0][processOneObject] 晶粒界面分析2 app Done: 18ms
+10/18 09:22:00.638  [pos:2#0,1,0 - 1 F][Worker 1][processOneObject] 晶粒分析1 app Done: 22ms
+10/18 09:22:00.621  [pos:2#0,1,1 - 1 F][Worker 0][processOneObject] 晶粒界面分析1 app Done: 6ms
+10/18 09:22:00.616  [pos:2#0,1,0 - 1 F][Worker 1][processOneObject] normal app preinspect Done: 480627988ms
+10/18 09:22:00.615  [pos:2#0,1,0 - 1 F][Worker 1][processOneObject] position app Done: 480627987ms
+10/18 09:22:00.615  [pos:2#0,1,1 - 1 F][Worker 0][processOneObject] 基板界面分析 app Done: 18ms
+10/18 09:22:00.597  [pos:2#0,1,0 - 1 F][Worker 1][processOneObject] priority app Done: 480627969ms
+10/18 09:22:00.597  [pos:2#0,1,0 - 1 F][Worker 1][processOneObject] globalRef app Done: 480627969ms
+10/18 09:22:00.597  [pos:2#0,1,1 - 1 F][Worker 0][processOneObject] 复制于 金线焊点检测1 app Done: 19ms
+10/18 09:22:00.587  [pos:2#0,1,0 - 1 F][Worker 1][processOneObject] Start: 480627958ms
+10/18 09:22:00.580  [pos:2#0,1,0 - 1 F][Worker 1][processOneInspection2] processOneObject Start: 480627951ms
+10/18 09:22:00.579  [pos:2#0,1,1 - 1 F][Worker 0][processOneObject] 金线焊点检测3 app Done: 14ms
+10/18 09:22:00.579  [pos:2#0,1,0 - 1 F][Worker 1][processOneInspection2] findObject Done: 480627950ms
+10/18 09:22:00.579  [pos:2#0,1,0 - 1 F][Worker 1][processOneInspection2] getMovementData Done: 480627949ms
+10/18 09:22:00.578  [pos:2#0,1,0 - 1 F][Worker 1][processOneInspection2] Start Time: 480627949ms
+10/18 09:22:00.578  [pos:0#0,0,0 - 0 P][Worker 1][Entry] Start Time: 480627949ms
+10/18 09:22:00.578  [IPC normal] ID: 1072, End: 480627949ms
+10/18 09:22:00.578  *** Last unit F2
+10/18 09:22:00.578  [IPC normal] ID: 1072, Start: 480627949ms
+10/18 09:22:00.578  New image..4 F2,1
+10/18 09:22:00.578  Process simple #1
+10/18 09:22:00.578  [IPC simple] ID: 1058, End: 480627949ms
+10/18 09:22:00.578w Cutter not enabled for movement type 1!
+10/18 09:22:00.577  Recv 1 Cut imges, pos:2#0,1,0 - 1 F
+10/18 09:22:00.577  [IPC simple] ID: 1058, Start: 480627948ms
+10/18 09:22:00.577  [IPC normal] ID: 1064, End: 480627948ms
+10/18 09:22:00.577  [IPC normal] ID: 1064, Start: 480627948ms
+10/18 09:22:00.577  [IPC normal] ID: 1063, End: 480627948ms
+10/18 09:22:00.577  [IPC normal] ID: 1063, Start: 480627948ms
+10/18 09:22:00.568  [IPC normal] ID: 1580, End: 480627939ms
+10/18 09:22:00.568  [IPC normal] ID: 1580, Start: 480627939ms
+10/18 09:22:00.565  [pos:2#0,1,1 - 1 F][Worker 0][processOneObject] 金线焊点检测2 app Done: 12ms
+10/18 09:22:00.552  [pos:2#0,1,1 - 1 F][Worker 0][processOneObject] 金线焊点检测1 app Done: 20ms
+10/18 09:22:00.549  [pos:0#0,0,0 - 0 P][Worker 1][Entry] End Time: 480627920ms
+10/18 09:22:00.549  [pos:2#0,1,1 - 1 F][Worker 1][doProcess2] End Time: 480627920ms
+10/18 09:22:00.548  Del F2 0,0,0,T204 remain 1
+10/18 09:22:00.548  [pos:2#0,1,1 - 1 F][Worker 1][doProcess2] Send Result To Manager Time: 480627919ms
+10/18 09:22:00.547  #5 - finish obj 0,0
+10/18 09:22:00.547w sharing result 0,0
+10/18 09:22:00.545w #4X - result unit 1:0,0,0
+10/18 09:22:00.545  [pos:2#0,1,1 - 1 F][doProcess2] Set Reject Information Time: 480627916ms
+10/18 09:22:00.544  [pos:2#0,1,1 - 1 F][Worker 1][doProcess2] Start Time: 480627915ms
+10/18 09:22:00.544  [pos:2#0,1,1 - 1 F][Worker 1][doProcess1] End Time: 480627915ms
+10/18 09:22:00.544  [pos:2#0,1,1 - 1 F][Worker 1][doProcess1] Start Time: 480627915ms
+10/18 09:22:00.544  [pos:2#0,0,0 - 1 F][Worker 1][processOneInspection2] End Time: 480627915ms
+10/18 09:22:00.544  [pos:2#0,0,0 - 1 F][Worker 1][processOneObject] normal app inspect Done: 480627915ms
+10/18 09:22:00.544  [pos:2#0,0,0 - 1 F][Worker 1][processOneObject] 单焊点分析 app Done: 10ms
+10/18 09:22:00.534  [pos:2#0,0,0 - 1 F][Worker 1][processOneObject] 晶粒界面分析2 app Done: 7ms
+10/18 09:22:00.532  [pos:2#0,1,1 - 1 F][Worker 0][processOneObject] 晶粒分析2 app Done: 16ms
+10/18 09:22:00.527  [pos:2#0,0,0 - 1 F][Worker 1][processOneObject] 晶粒界面分析1 app Done: 6ms
+10/18 09:22:00.521  [pos:2#0,0,0 - 1 F][Worker 1][processOneObject] 基板界面分析 app Done: 19ms
+10/18 09:22:00.516  [pos:2#0,1,1 - 1 F][Worker 0][processOneObject] 晶粒分析1 app Done: 17ms
+10/18 09:22:00.502  [pos:2#0,0,0 - 1 F][Worker 1][processOneObject] 复制于 金线焊点检测1 app Done: 18ms
+10/18 09:22:00.499  [pos:2#0,1,1 - 1 F][Worker 0][processOneObject] normal app preinspect Done: 480627870ms
+10/18 09:22:00.499  [pos:2#0,1,1 - 1 F][Worker 0][processOneObject] position app Done: 480627870ms
+10/18 09:22:00.484  [pos:2#0,0,0 - 1 F][Worker 1][processOneObject] 金线焊点检测3 app Done: 15ms
+10/18 09:22:00.480  [pos:2#0,1,1 - 1 F][Worker 0][processOneObject] priority app Done: 480627851ms
+10/18 09:22:00.480  [pos:2#0,1,1 - 1 F][Worker 0][processOneObject] globalRef app Done: 480627851ms
+10/18 09:22:00.469  [pos:2#0,0,0 - 1 F][Worker 1][processOneObject] 金线焊点检测2 app Done: 37ms
+10/18 09:22:00.463  [pos:2#0,1,1 - 1 F][Worker 0][processOneObject] Start: 480627834ms
+10/18 09:22:00.455  [pos:2#0,1,1 - 1 F][Worker 0][processOneInspection2] processOneObject Start: 480627826ms
+10/18 09:22:00.453  [pos:2#0,1,1 - 1 F][Worker 0][processOneInspection2] findObject Done: 480627824ms
+10/18 09:22:00.453  [pos:2#0,1,1 - 1 F][Worker 0][processOneInspection2] getMovementData Done: 480627824ms
+10/18 09:22:00.453  [pos:2#0,1,1 - 1 F][Worker 0][processOneInspection2] Start Time: 480627824ms
+10/18 09:22:00.453  [pos:0#0,0,0 - 0 P][Worker 0][Entry] Start Time: 480627824ms
+10/18 09:22:00.453  New image..3 F2,1
+10/18 09:22:00.453  Process simple #1
+10/18 09:22:00.453  [IPC simple] ID: 1058, End: 480627824ms
+10/18 09:22:00.453w Cutter not enabled for movement type 1!
+10/18 09:22:00.452  Recv 1 Cut imges, pos:2#0,1,1 - 1 F
+10/18 09:22:00.452  [IPC simple] ID: 1058, Start: 480627823ms
+10/18 09:22:00.452  [IPC normal] ID: 1064, End: 480627823ms
+10/18 09:22:00.452  [IPC normal] ID: 1064, Start: 480627823ms
+10/18 09:22:00.452  [IPC normal] ID: 1063, End: 480627823ms
+10/18 09:22:00.452  [IPC normal] ID: 1063, Start: 480627823ms
+10/18 09:22:00.446  [IPC normal] ID: 1580, End: 480627818ms
+10/18 09:22:00.446  [IPC normal] ID: 1580, Start: 480627818ms
+10/18 09:22:00.431  [pos:2#0,0,0 - 1 F][Worker 1][processOneObject] 金线焊点检测1 app Done: 18ms
+10/18 09:22:00.421  [pos:0#0,0,0 - 0 P][Worker 0][Entry] End Time: 480627793ms
+10/18 09:22:00.421  [pos:2#0,0,0 - 1 F][Worker 0][doProcess2] End Time: 480627793ms
+10/18 09:22:00.420  Del F2 0,0,1,T201 remain 1
+10/18 09:22:00.420  [pos:2#0,0,0 - 1 F][Worker 0][doProcess2] Send Result To Manager Time: 480627792ms
+10/18 09:22:00.420  #5 - finish obj 0,1
+10/18 09:22:00.420w sharing result 0,1
+10/18 09:22:00.413  [pos:2#0,0,0 - 1 F][Worker 1][processOneObject] 晶粒分析2 app Done: 18ms
+10/18 09:22:00.409w #4X - result unit 1:0,0,1
+10/18 09:22:00.409  [pos:2#0,0,0 - 1 F][doProcess2] Set Reject Information Time: 480627781ms
+10/18 09:22:00.408  [pos:2#0,0,0 - 1 F][Worker 0][doProcess2] Start Time: 480627780ms
+10/18 09:22:00.408  [pos:2#0,0,0 - 1 F][Worker 0][doProcess1] End Time: 480627780ms
+10/18 09:22:00.408  [pos:2#0,0,0 - 1 F][Worker 0][doProcess1] Start Time: 480627780ms
+10/18 09:22:00.408  [pos:2#0,0,1 - 1 F][Worker 0][processOneInspection2] End Time: 480627780ms
+10/18 09:22:00.408  [pos:2#0,0,1 - 1 F][Worker 0][processOneObject] normal app inspect Done: 480627780ms
+10/18 09:22:00.408  [pos:2#0,0,1 - 1 F][Worker 0][processOneObject] 单焊点分析 app Done: 11ms
+10/18 09:22:00.397  [pos:2#0,0,1 - 1 F][Worker 0][processOneObject] 晶粒界面分析2 app Done: 5ms
+10/18 09:22:00.395  [pos:2#0,0,0 - 1 F][Worker 1][processOneObject] 晶粒分析1 app Done: 15ms
+10/18 09:22:00.392  [pos:2#0,0,1 - 1 F][Worker 0][processOneObject] 晶粒界面分析1 app Done: 6ms
+10/18 09:22:00.386  [pos:2#0,0,1 - 1 F][Worker 0][processOneObject] 基板界面分析 app Done: 21ms
+10/18 09:22:00.381  [pos:2#0,0,0 - 1 F][Worker 1][processOneObject] normal app preinspect Done: 480627752ms
+10/18 09:22:00.381  [pos:2#0,0,0 - 1 F][Worker 1][processOneObject] position app Done: 480627752ms
+10/18 09:22:00.366  [pos:2#0,0,1 - 1 F][Worker 0][processOneObject] 复制于 金线焊点检测1 app Done: 19ms
+10/18 09:22:00.363  [pos:2#0,0,0 - 1 F][Worker 1][processOneObject] priority app Done: 480627734ms
+10/18 09:22:00.363  [pos:2#0,0,0 - 1 F][Worker 1][processOneObject] globalRef app Done: 480627734ms
+10/18 09:22:00.354  [pos:2#0,0,0 - 1 F][Worker 1][processOneObject] Start: 480627725ms
+10/18 09:22:00.347  [pos:2#0,0,1 - 1 F][Worker 0][processOneObject] 金线焊点检测3 app Done: 13ms
+10/18 09:22:00.345  [pos:2#0,0,0 - 1 F][Worker 1][processOneInspection2] processOneObject Start: 480627716ms
+10/18 09:22:00.345  [pos:2#0,0,0 - 1 F][Worker 1][processOneInspection2] findObject Done: 480627716ms
+10/18 09:22:00.345  [pos:2#0,0,0 - 1 F][Worker 1][processOneInspection2] getMovementData Done: 480627716ms
+10/18 09:22:00.345  [pos:2#0,0,0 - 1 F][Worker 1][processOneInspection2] Start Time: 480627716ms
+10/18 09:22:00.345  [pos:0#0,0,0 - 0 P][Worker 1][Entry] Start Time: 480627715ms
+10/18 09:22:00.344  New image..2 F2,1
+10/18 09:22:00.344  [IPC simple] ID: 1058, End: 480627715ms
+10/18 09:22:00.344  Process simple #1
+10/18 09:22:00.344w Cutter not enabled for movement type 1!
+10/18 09:22:00.343  Recv 1 Cut imges, pos:2#0,0,0 - 1 F
+10/18 09:22:00.343  [IPC simple] ID: 1058, Start: 480627715ms
+10/18 09:22:00.343  [IPC normal] ID: 1064, End: 480627715ms
+10/18 09:22:00.343  [IPC normal] ID: 1064, Start: 480627715ms
+10/18 09:22:00.343  [IPC normal] ID: 1063, End: 480627715ms
+10/18 09:22:00.343  [IPC normal] ID: 1063, Start: 480627715ms
+10/18 09:22:00.333  [pos:2#0,0,1 - 1 F][Worker 0][processOneObject] 金线焊点检测2 app Done: 32ms
+10/18 09:22:00.327  [IPC normal] ID: 1580, End: 480627699ms
+10/18 09:22:00.327  [IPC normal] ID: 1580, Start: 480627699ms
+10/18 09:22:00.301  [pos:2#0,0,1 - 1 F][Worker 0][processOneObject] 金线焊点检测1 app Done: 18ms
+10/18 09:22:00.283  [pos:2#0,0,1 - 1 F][Worker 0][processOneObject] 晶粒分析2 app Done: 16ms
+10/18 09:22:00.267  [pos:2#0,0,1 - 1 F][Worker 0][processOneObject] 晶粒分析1 app Done: 15ms
+10/18 09:22:00.252  [pos:2#0,0,1 - 1 F][Worker 0][processOneObject] normal app preinspect Done: 480627624ms
+10/18 09:22:00.252  [pos:2#0,0,1 - 1 F][Worker 0][processOneObject] position app Done: 480627624ms
+10/18 09:22:00.235  [pos:2#0,0,1 - 1 F][Worker 0][processOneObject] priority app Done: 480627607ms
+10/18 09:22:00.235  [pos:2#0,0,1 - 1 F][Worker 0][processOneObject] globalRef app Done: 480627607ms
+10/18 09:22:00.225  [pos:2#0,0,1 - 1 F][Worker 0][processOneObject] Start: 480627597ms
+10/18 09:22:00.219  [pos:2#0,0,1 - 1 F][Worker 0][processOneInspection2] processOneObject Start: 480627591ms
+10/18 09:22:00.219  [pos:2#0,0,1 - 1 F][Worker 0][processOneInspection2] findObject Done: 480627591ms
+10/18 09:22:00.219  [pos:2#0,0,1 - 1 F][Worker 0][processOneInspection2] getMovementData Done: 480627591ms
+10/18 09:22:00.219  [pos:2#0,0,1 - 1 F][Worker 0][processOneInspection2] Start Time: 480627591ms
+10/18 09:22:00.219  [pos:0#0,0,0 - 0 P][Worker 0][Entry] Start Time: 480627591ms
+10/18 09:22:00.219  New image..1 F2,1
+10/18 09:22:00.219  Process simple #1
+10/18 09:22:00.219  [IPC simple] ID: 1058, End: 480627591ms
+10/18 09:22:00.219w Cutter not enabled for movement type 1!
+10/18 09:22:00.217  Recv 1 Cut imges, pos:2#0,0,1 - 1 F
+10/18 09:22:00.217  [IPC simple] ID: 1058, Start: 480627589ms
+10/18 09:22:00.217  [IPC normal] ID: 1064, End: 480627589ms
+10/18 09:22:00.217  [IPC normal] ID: 1064, Start: 480627589ms
+10/18 09:22:00.217  [IPC normal] ID: 1063, End: 480627589ms
+10/18 09:22:00.217  [IPC normal] ID: 1063, Start: 480627589ms
+10/18 09:22:00.211  [IPC normal] ID: 1580, End: 480627583ms
+10/18 09:22:00.211  [IPC normal] ID: 1580, Start: 480627583ms
+10/18 09:22:00.115  [IPC simple] ID: 1021, End: 480627486ms
+10/18 09:22:00.115  Inspect push thread ready
+10/18 09:22:00.088  [setProvider] End Time: 480627459
+10/18 09:22:00.088  [createThreadManagers] End Time: 480627459
+10/18 09:22:00.088  [createThreadManagers] Thread 5 buildUnit & prepare: &d
+10/18 09:22:00.088  [createThreadManagers] Thread 4 buildUnit & prepare: &d
+10/18 09:22:00.088  [createThreadManagers] Thread 3 buildUnit & prepare: &d
+10/18 09:22:00.088  [createThreadManagers] Thread 2 buildUnit & prepare: &d
+10/18 09:22:00.088  [createThreadManagers] Thread 1 buildUnit & prepare: &d
+10/18 09:22:00.088  [createThreadManagers] Thread 0 buildUnit & prepare: &d
+10/18 09:22:00.088  [createThreadManagers] Obj Copy End Time: 480627459
+10/18 09:22:00.006  [createThreadManagers] Thread 5 added Obj 0
+10/18 09:21:59.909  [createThreadManagers] Thread 4 added Obj 0
+10/18 09:21:59.812  [createThreadManagers] Thread 3 added Obj 0
+10/18 09:21:59.717  [createThreadManagers] Thread 2 added Obj 0
+10/18 09:21:59.645  [createThreadManagers] Thread 1 added Obj 0
+10/18 09:21:59.541  [createThreadManagers] Thread 0 added Obj 0
+10/18 09:21:59.541  应用加载耗时<154ms>
+10/18 09:21:59.478  应用<金线焊点检测1>耗时<11ms+0ms>
+10/18 09:21:59.467  应用<晶粒分析2>耗时<11ms+1ms>
+10/18 09:21:59.455  应用<晶粒分析1>耗时<14ms+1ms>
+10/18 09:21:59.439  应用<die2>耗时<14ms+1ms>
+10/18 09:21:59.423  应用<die1>耗时<11ms+1ms>
+10/18 09:21:59.410  应用<全局参考>耗时<18ms+1ms>
+10/18 09:21:59.389  加载对象耗时<1ms>
+10/18 09:21:59.290  [createThreadManagers] Obj Copy Start Time: 480626661
+10/18 09:21:59.290  [createThreadManagers] Start Time: 480626661
+10/18 09:21:59.290  [setProvider] Start Time: 480626661
+10/18 09:21:59.290  Prep recipe threads
+10/18 09:21:59.290  [IPC simple] ID: 1021, Start: 480626661ms
+10/18 09:21:59.290  [IPC normal] ID: 1900, End: 480626661ms
+10/18 09:21:59.290  Ipc:static report data
+10/18 09:21:59.290  [IPC normal] ID: 1900, Start: 480626661ms
+10/18 09:21:59.290  [IPC normal] ID: 1514, End: 480626661ms
+10/18 09:21:59.290E Inspect flag:3
+10/18 09:21:59.290  [IPC normal] ID: 1514, Start: 480626661ms
+10/18 09:21:58.965  [IPC simple] ID: 1520, End: 480626336ms
+10/18 09:21:58.965  Send lot reply
+10/18 09:21:58.964  fillInspectionDetail
+10/18 09:21:58.961w Query LOT 1016test_huarui1 As New
+10/18 09:21:58.961  [IPC simple] ID: 1520, Start: 480626332ms
+10/18 09:21:58.950  [IPC reply] ID: 1020, End: 480626321ms
+10/18 09:21:58.950  Ipc:check Begin Inspect
+10/18 09:21:58.950  [IPC reply] ID: 1020, Start: 480626321ms
+10/18 09:21:50.797  [IPC simple] ID: 1523, End: 480618168ms
+10/18 09:21:50.796  query prev report
+10/18 09:21:50.796  [IPC simple] ID: 1523, Start: 480618167ms
+10/18 09:21:50.796  [IPC simple] ID: 1000, End: 480618167ms
+10/18 09:21:50.607w close DBFile
+10/18 09:21:50.607w stop DBLogging
+10/18 09:21:50.607w Terminating inspection
+10/18 09:21:50.607w  * * * Prepare inspection
+10/18 09:21:50.607  [IPC simple] ID: 1000, Start: 480617978ms
+10/18 09:21:50.433  [IPC reply] ID: 1515, End: 480617805ms
+10/18 09:21:50.432  [IPC reply] ID: 1515, Start: 480617804ms
+10/18 09:21:39.232  [IPC reply] ID: 120, End: 480606603ms
+10/18 09:21:39.232w 配方<E:\12vtrecipt\03huarui\huarui_1018\1.vrp>没有连接上Barcode文件, 使用全局文件.
+10/18 09:21:39.232w 配方<E:\12vtrecipt\03huarui\huarui_1018\1.vrp>未连接到OCR文件, 使用全局文件.
+10/18 09:21:39.232w 配方<E:\12vtrecipt\03huarui\huarui_1018\1.vrp>没有匹配运控配方
+10/18 09:21:39.231E strip map is not running, not initializing strip map
+10/18 09:21:39.211E 连接到SEC-SGEM端失败
+10/18 09:21:39.204  应用加载耗时<276ms>
+10/18 09:21:39.176  应用<复制于 金线焊点检测1>耗时<10ms+3ms>
+10/18 09:21:39.162  应用<金线焊点检测3>耗时<13ms+3ms>
+10/18 09:21:39.146  应用<金线焊点检测2>耗时<10ms+3ms>
+10/18 09:21:39.133  应用<金线焊点检测1>耗时<9ms+3ms>
+10/18 09:21:39.121  应用<晶粒分析2>耗时<10ms+2ms>
+10/18 09:21:39.108  应用<晶粒分析1>耗时<9ms+2ms>
+10/18 09:21:39.096  应用<die2>耗时<13ms+1ms>
+10/18 09:21:39.081  应用<die1>耗时<14ms+1ms>
+10/18 09:21:39.065  应用<全局参考>耗时<133ms+1ms>
+10/18 09:21:39.064w 应用<全局参考>耗时<133ms>
+10/18 09:21:38.929  加载对象耗时<59ms>
+10/18 09:21:38.859  cmd:load file
+10/18 09:21:38.859  [IPC reply] ID: 120, Start: 480606230ms
+10/18 09:21:13.605  图片初始化显示完成
+10/18 09:21:13.602  初始化完毕
+10/18 09:21:13.592  读取上次配方文件
+10/18 09:21:13.578  显示侧边栏
+10/18 09:21:13.228  Calibrating2D..
+10/18 09:21:13.228  C:\VTCONFIG_ALL\vtConfig_huarui\ATBK\2D-0#0.2Dcal
+10/18 09:21:13.228  Load calib features from:
+10/18 09:21:13.214  E:\08companysoft\SL\10_11\Release\InstallPackage\VISION.exe
+10/18 09:21:13.214  ------------- STARTED --------------
